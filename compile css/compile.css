@@ -1,0 +1,707 @@
+ul, ol {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  position: absolute !important;
+  top: 20;
+  left: 0;
+  z-index: 999;
+}
+nav .navbar-nav {
+  column-gap: 30px;
+}
+nav li .nav-link {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+nav li .nav-link:hover {
+  color: rgb(255, 150, 0);
+}
+nav .navbtn {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: rgb(255, 150, 0);
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0.4s;
+}
+nav .navbtn:hover {
+  color: #222222;
+  background: white;
+}
+
+.hero {
+  background-image: url("/images/heroImg.png");
+  background-size: cover;
+  text-align: center;
+  padding-top: 291px;
+  padding-bottom: 156px;
+  position: relative;
+}
+.hero h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  width: 819px;
+  line-height: 93.6px;
+  margin: 0 auto;
+}
+.hero .buttons {
+  margin-top: 55px;
+}
+.hero .hero-btn-1, .hero .hero-btn-2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: rgb(255, 150, 0);
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0.4s;
+  margin: 0 15px;
+}
+.hero .hero-btn-1:hover, .hero .hero-btn-2:hover {
+  color: #222222;
+  background: white;
+}
+.hero .hero-btn-2:hover {
+  color: #222222;
+  background: white;
+}
+.hero img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.adventures {
+  margin-top: 72px;
+}
+.adventures h3 {
+  font-family: "Yellowtail";
+  font-size: 30px;
+  font-weight: 400;
+  color: #14B9F1;
+}
+.adventures h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70.2px;
+  color: #222222;
+  margin-top: 5px;
+  margin-bottom: 62px;
+}
+.adventures p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+  position: relative;
+}
+.adventures p:after {
+  position: absolute;
+  left: 0;
+  top: -31px;
+  width: 100px;
+  height: 2px;
+  background: #A0A0A0;
+  content: "";
+}
+.adventures ul {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+}
+.adventures li {
+  margin-top: 30px;
+}
+.adventures li:first-child {
+  margin-top: 50px;
+}
+.adventures li:last-child {
+  margin-bottom: 40px;
+}
+.adventures i {
+  margin-right: 23px;
+}
+.adventures .adventure-btn {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: rgb(255, 150, 0);
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0.4s;
+  border: 1px solid rgb(255, 150, 0);
+}
+.adventures .adventure-btn:hover {
+  color: #222222;
+  background: white;
+  border: 1px solid rgb(255, 150, 0);
+}
+.adventures img:last-child {
+  margin-left: 31px;
+}
+
+.Adventures-under {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.item {
+  background: #FFF4E5;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  position: relative;
+  border-radius: 10px;
+}
+.item h4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  line-height: 104px;
+  color: #222222;
+}
+.item p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  color: #222222;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Adventures-under .col-lg-3:nth-child(1) .item {
+  background: #fffaf2;
+}
+
+.Adventures-under .col-lg-3:nth-child(2) .item {
+  background: #f3fef4;
+}
+
+.Adventures-under .col-lg-3:nth-child(3) .item {
+  background: #faf9fe;
+}
+
+.Adventures-under .col-lg-3:nth-child(4) .item {
+  background: #fef8fa;
+}
+
+.Activities {
+  background: #0b3543;
+}
+.Activities h3 {
+  font-family: "Yellowtail";
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 150, 0);
+  margin-top: 102px;
+  margin-bottom: 5px;
+}
+.Activities h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70.2px;
+  color: white;
+  margin-bottom: 91px;
+  position: relative;
+}
+.Activities h2:after {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100px;
+  height: 2px;
+  background: #fffaf2;
+  content: "";
+}
+.Activities p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-top: 165px;
+}
+
+.Activities-under {
+  background: #0b3543;
+  text-align: center;
+  position: relative;
+}
+.Activities-under .card {
+  background: transparent;
+  border: none;
+}
+.Activities-under .card img {
+  width: 100%;
+}
+.Activities-under .card .box {
+  background: #0f4659;
+}
+.Activities-under .card .box h3 {
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  color: white;
+  padding-top: 27px;
+}
+.Activities-under .card .box p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-top: 24px;
+  padding-bottom: 32px;
+}
+.Activities-under .card:hover {
+  cursor: pointer;
+}
+.Activities-under #img {
+  position: absolute;
+  left: -70px;
+  bottom: -98px;
+}
+
+.ExtremeSports {
+  background: #0b3543;
+  text-align: center;
+}
+.ExtremeSports h2 {
+  font-family: "Arizonia";
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 200px;
+  color: white;
+  padding-top: 83px;
+  margin-bottom: 37px;
+}
+.ExtremeSports .div {
+  padding-top: 106px;
+  background: rgb(255, 150, 0);
+}
+.ExtremeSports .div h3 {
+  font-family: "IBM Plex Sans";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70.2px;
+  color: white;
+  margin-top: 26px;
+}
+.ExtremeSports .div h4 {
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  color: white;
+  margin-top: 46px;
+}
+.ExtremeSports .div .box {
+  margin-top: 60px;
+  padding-bottom: 100px;
+}
+.ExtremeSports .div .box .ExtremeSports-under-btn1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: #0b3543;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0.4s;
+  margin-right: 10px;
+  border: 2px solid #0b3543;
+}
+.ExtremeSports .div .box .ExtremeSports-under-btn1:hover {
+  border: solid 2px white;
+  background: transparent;
+}
+.ExtremeSports .div .box .ExtremeSports-under-btn2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: #0b3543;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0.4s;
+  margin-right: 10px;
+  border: 2px solid #0b3543;
+  padding-left: 10px;
+}
+.ExtremeSports .div .box .ExtremeSports-under-btn2:hover {
+  border: solid 2px white;
+  background: transparent;
+}
+.ExtremeSports .div .box .ExtremeSports-under-btn2 i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ExtremeSports .div .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ExtremeSports .div .card:hover .overlay {
+  overflow: visible;
+  bottom: 0;
+}
+.ExtremeSports .div .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  text-align: left !important;
+  position: absolute;
+  left: 0;
+  bottom: -19%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+  transition: 0.4s ease-in-out;
+}
+.ExtremeSports .div .overlay .details {
+  margin-left: 65px;
+}
+.ExtremeSports .div .overlay h5 {
+  font-family: "IBM Plex Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: white;
+  margin-bottom: 19px;
+}
+.ExtremeSports .div .overlay h6 {
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  color: white;
+  margin-bottom: 60px;
+}
+.ExtremeSports .div .overlay p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  margin-bottom: 30px;
+}
+.ExtremeSports .div .overlay p:after {
+  width: 250px;
+  height: 2px;
+  background: #fffaf2;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -30px;
+}
+
+.why {
+  margin-top: 122px;
+  padding-bottom: 54px;
+}
+.why .title {
+  text-align: center;
+}
+.why .title h2 {
+  font-family: "Yellowtail";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.88px;
+  color: #14B9F1;
+}
+.why .title h3 {
+  font-family: "IBM Plex Sans";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70.2px;
+  color: #222222;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 54px;
+}
+.why .title h3:after {
+  width: 80px;
+  height: 2px;
+  background: rgb(160, 160, 160);
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.why .col-lg-3:nth-child(1) .details .icon {
+  background: #f0f3fd;
+}
+.why .col-lg-3:nth-child(2) .details .icon {
+  background: #e7fce9;
+}
+.why .col-lg-3:nth-child(3) .details .icon {
+  background: #fff4e6;
+}
+.why .col-lg-3:nth-child(4) .details .icon {
+  background: #fdf1f5;
+}
+.why .details {
+  display: flex;
+  flex-direction: column;
+}
+.why .details .icon {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+.why .details .icon i {
+  font-size: 55px;
+  font-weight: 600;
+  margin: auto;
+}
+.why .details .icon #first {
+  color: rgb(0, 85, 255);
+}
+.why .details .icon #second {
+  color: rgb(0, 179, 60);
+}
+.why .details .icon #third {
+  color: rgb(255, 150, 0);
+}
+.why .details .icon #fourth {
+  color: rgb(255, 77, 121);
+}
+.why h3 {
+  font-family: "IBM Plex Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  color: #222222;
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+.why p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+  text-align: center;
+}
+
+.news {
+  background: rgb(247, 247, 247);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.news .title h2 {
+  font-family: "Yellowtail";
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 150, 0);
+}
+.news .title h3 {
+  font-family: "IBM Plex Sans";
+  font-size: 54px;
+  font-weight: 700;
+  color: #222222;
+  position: relative;
+  width: 407px;
+  margin-top: 4px;
+}
+.news .title h3:after {
+  width: 80px;
+  height: 2px;
+  background: #222222;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -31;
+}
+.news .text {
+  display: flex;
+  height: 200px;
+}
+.news .text p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+  width: 638px;
+  align-self: center;
+}
+.news .div {
+  margin-top: 60px;
+}
+.news .div .card {
+  border-radius: 10px;
+}
+.news .div .card .card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.news .div .card .card-detail h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.4px;
+  color: #222222;
+  width: 395px;
+  margin-top: 27px;
+}
+.news .div .card .card-detail p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  width: 365px;
+}
+.news .div .card .card-detail a {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(255, 150, 0);
+  text-decoration: none;
+  display: block;
+  padding: 37px 139px 30px;
+  border-top: 2px solid #d5d5d5;
+}
+
+.fiveIcon {
+  padding: 45px;
+}
+.fiveIcon .row {
+  justify-content: space-between;
+}
+.fiveIcon .row .div {
+  text-align: center;
+}
+
+.footer .custom-width-left {
+  padding: 0;
+  width: 37.5%;
+}
+.footer .custom-width-left .div1 img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.footer .custom-width-right {
+  padding-top: 75px;
+  padding-left: 137px;
+  width: 62.4%;
+  background: #0b3543;
+}
+.footer .custom-width-right img {
+  display: block;
+  margin-bottom: 50px;
+}
+.footer .custom-width-right a {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: rgb(255, 150, 0);
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0.4s;
+  display: inline-block;
+}
+.footer .custom-width-right a:hover {
+  color: #222222;
+  background: white;
+}
+.footer .custom-width-right p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  width: 559px;
+  margin-top: 20px;
+}
+.footer .custom-width-right .line {
+  width: 72%;
+  height: 2px;
+  background: #fffaf2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer .custom-width-right .row h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  color: white;
+  position: relative;
+  margin-bottom: 45px;
+}
+.footer .custom-width-right .row h2:after {
+  width: 50px;
+  height: 2px;
+  background: rgb(160, 160, 160);
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+}
+.footer .custom-width-right .row p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+.footer .custom-width-right .row #asdf {
+  margin-top: 26px;
+  margin-bottom: 24px;
+}
+.footer .custom-width-right #hjkl {
+  margin-top: 72px;
+}
+
+/*# sourceMappingURL=compile.css.map */

@@ -1,0 +1,32 @@
+ /* 
+
+     sass --watch "scss/style.scss:compile css/compile.css"
+
+     sass --watch "scss/res.scss:compile css/res.css"
+    
+
+
+
+
+
+    font-family:  IBM Plex Sans
+  
+
+    font-family: Yellowtail
+        
+
+   font-family: Arizonia
+
+ 
+
+
+
+
+
+
+header>img+nav>ul.menu>li>a
+.div*4>.log
+.div$*4
+input>[type:"mail"][id:"mail"]+button>[type=submit][id=asdf]
+
+ */

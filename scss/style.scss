@@ -1,0 +1,653 @@
+@forward "../partials/_base/index";
+@use "../partials/_util/index" as *;
+
+
+
+
+// =========== navbar scss start
+
+nav{
+    width: 100%;
+    position: absolute !important;
+    top: 20;
+    left: 0;
+    z-index: 999;
+
+    .navbar-nav{
+        column-gap: 30px;
+    } 
+    li .nav-link{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 700; 
+        color: $white;
+        &:hover{
+            color: $yellow;
+        }
+    }
+    .navbtn{
+        @include button($white, $yellow);
+
+        &:hover{
+            color: $black;
+            background: $white;
+        }
+    }
+}
+
+// =========== navbar scss end
+
+// =========== hero scss start
+.hero{
+    background-image: url('/images/heroImg.png');
+    background-size: cover;
+    text-align: center;
+    padding-top: 291px;
+    padding-bottom: 156px;
+    position: relative;
+
+    h1{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 72px;
+        font-weight: 700; 
+        color: $white;
+        width: 819px;
+        line-height: 93.6px;
+        margin: 0 auto;
+    }
+
+    .buttons{
+        margin-top: 55px;
+
+    }
+
+    .hero-btn-1{
+        @include button( $white, $yellow );
+        margin: 0 15px;
+
+        &:hover{
+            color: $black;
+            background: $white;
+        }
+    }
+    
+    .hero-btn-2{
+        @extend .hero-btn-1;
+        &:hover{
+            color: $black;
+            background: $white;
+        }
+    }
+    img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+// =========== hero scss end
+
+// =========== Adventures scss start
+.adventures{ 
+    margin-top: 72px;
+
+    h3{
+        @include title("Yellowtail", 30px, 400, $sky)
+    }
+    h2{
+        @include heading("IBM Plex Sans", 54px, 700, 70.2px, $black);
+        margin-top: 5px;
+        margin-bottom: 62px;
+    }
+    p{
+        @include paragraph("IBM Plex Sans", 18px, 400, $black);
+        position:relative;
+    }
+
+   p:after{
+    position: absolute;
+    left: 0;
+    top: -31px;
+    width: 100px;
+    height: 2px;
+    background: #A0A0A0;
+    content: "";
+   }
+
+   ul{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: $black;
+   } 
+
+   li{
+    margin-top: 30px;
+   }
+
+   li:first-child{
+    margin-top: 50px;
+   }
+
+   li:last-child{
+    margin-bottom: 40px;
+   }
+
+   i{
+    margin-right: 23px;
+   }
+   .adventure-btn{
+    @include button($white, $yellow);
+    border: 1px solid $yellow;
+
+    &:hover{
+        color: $black;
+        background: $white;
+        border: 1px solid $yellow;
+    }
+   }
+
+   img:last-child{
+    margin-left: 31px;
+   }
+}
+// =========== Adventures scss end
+
+// =========== Adventures-under scss start
+.Adventures-under{
+    margin-top: 80px;
+    margin-bottom: 100px;
+} 
+.item{
+    background: #FFF4E5;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    position: relative;
+    border-radius: 10px;
+
+    h4{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 80px;
+        font-weight: 700; 
+        color: $white;
+        line-height: 104px;
+        color: $black;
+    }
+    p{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.4px;
+        color: $black;
+    }
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.Adventures-under .col-lg-3:nth-child(1) .item{
+    background: $offWide; 
+}
+
+.Adventures-under .col-lg-3:nth-child(2) .item{
+    background: $lightGreen; 
+}
+
+.Adventures-under .col-lg-3:nth-child(3) .item{
+    background: $lightIndigo; 
+}
+
+.Adventures-under .col-lg-3:nth-child(4) .item{
+    background: $lightRed; 
+}
+// =========== Adventures-under scss end
+
+// =========== Activities scss start
+.Activities{
+    background: $cyprus;
+
+    h3{
+        @include title("Yellowtail", 30px, 400, $yellow);
+        margin-top: 102px;
+        margin-bottom: 5px;
+    }
+    h2{
+        @include heading("IBM Plex Sans", 54px, 700, 70.2px, $white);
+        margin-bottom: 91px;
+        position: relative;
+    }
+    
+    h2:after{
+           position: absolute;
+           left: 0;
+           bottom: -30px;
+           width: 100px;
+           height: 2px;
+           background: $offWide;
+           content: "";
+       }
+
+    p{
+        @include paragraph("IBM Plex Sans", 18px, 400, $white);
+        margin-top: 165px;
+    }
+}
+// =========== Activities scss end
+
+// =========== Activities-under scss start
+.Activities-under{
+    background: $cyprus;
+    text-align: center;
+    position: relative;
+
+    .card{
+        background: transparent;
+        border: none;
+
+        img{
+            width: 100%;
+        }
+        .box{
+           background: lighten($cyprus, $amount: 5);
+           
+               h3{
+                   @include heading("IBM Plex Sans", 30px, 700, 39px, $white);
+                   padding-top: 27px;
+               }
+               p{
+                   @include paragraph("IBM Plex Sans", 18px, 400, $white);
+                   margin-top: 24px;
+                   padding-bottom: 32px;
+               }
+        }
+    }
+    .card:hover{
+        cursor: pointer;
+    }
+
+    #img{
+        position: absolute;
+        left: -70px;
+        bottom: -98px;
+    }
+
+}
+// =========== Activities-under scss end
+
+// =========== ExtremeSports scss start
+.ExtremeSports{
+    background: $cyprus;
+    text-align: center;
+
+    h2{
+        @include heading("Arizonia", 160px, 400, 200px, $white);
+        padding-top: 83px;
+        margin-bottom: 37px;
+    }
+    .div{
+        padding-top: 106px;
+        background: $yellow;
+
+        h3{
+            @include heading("IBM Plex Sans", 54px, 700, 70.2px, $white);
+            margin-top: 26px;
+        }
+        h4{
+            @include heading("IBM Plex Sans", 30px, 700, 39px, $white);
+            margin-top: 46px;
+        }
+        .box{
+            margin-top: 60px;
+            padding-bottom: 100px;
+
+            .ExtremeSports-under-btn1 {
+                        @include button($white, $cyprus);
+                        margin-right: 10px;
+                        border: 2px solid $cyprus;
+            
+                        &:hover {
+                        border: solid 2px $white;
+                        background: transparent
+                        }
+                    }
+    
+            .ExtremeSports-under-btn2{
+                      @include button($white, $cyprus);
+                      margin-right: 10px;
+                      border: 2px solid $cyprus;
+                      padding-left: 10px;
+                
+                      &:hover{
+                      border: solid 2px $white;
+                      background: transparent
+                      }
+
+                      i{
+                        margin-left: 10px;
+                        margin-right: 10px;
+                      }
+                    }
+        }
+
+        .card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+
+            &:hover .overlay{
+                overflow: visible;
+                bottom: 0;
+            }
+            
+        }
+
+        .overlay{
+             display: flex;
+             flex-direction: column;
+             justify-content: end;
+             width: 100%;
+             height: 100%;
+             text-align:  left !important;
+             position: absolute;
+             left: 0;
+             bottom: -19%;
+             background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+             transition: .4s ease-in-out;
+         
+             .details{
+                 margin-left: 65px;
+             }
+         
+             h5{
+                 @include heading("IBM Plex Sans", 40px, 700, 52px, $white);
+                 margin-bottom: 19px;
+             }
+             h6{
+                 @include heading("IBM Plex Sans", 30px, 400, 39px, $white);
+                 margin-bottom: 60px;
+             }
+             p{
+                 @include paragraph("IBM Plex Sans", 18px, 400, $white);
+                 position: relative;
+                 margin-bottom: 30px;
+             }
+             p:after{
+                width: 250px;
+                height: 2px;
+                background: $offWide;
+                content: "";
+                position: absolute;
+                left: 0;
+                top: -30px;
+             }
+         }
+          
+
+
+    }
+}
+// =========== ExtremeSports scss end
+
+// =========== why scss start
+.why{
+    margin-top: 122px;
+    padding-bottom: 54px;
+
+    .title{
+        text-align: center;
+        h2{
+            @include heading("Yellowtail", 30px, 400, 40.88px, $sky);
+        }
+        h3{
+            @include heading("IBM Plex Sans", 54px, 700, 70.2px, $black);
+            position: relative;
+            margin-top: 5px;
+            margin-bottom: 54px;
+        }
+
+        h3:after{
+            width: 80px;
+            height: 2px;
+            background: $offWide2;
+            content: "";
+            position: absolute;
+            bottom: -26px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .col-lg-3:nth-child(1) .details .icon{
+        background: $l-blue;
+    }
+    .col-lg-3:nth-child(2) .details .icon{
+        background: $l-green;
+    }
+    .col-lg-3:nth-child(3) .details .icon{
+        background: $l-yellow;
+    }
+    .col-lg-3:nth-child(4) .details .icon{
+        background: $l-rose;
+    }
+   
+    .details{
+        display: flex;
+        flex-direction: column;
+   
+        .icon{
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+           
+            i{
+                font-size: 55px;
+                font-weight: 600;
+                margin: auto;  
+            }
+
+            #first {
+                color: $blue;
+            }
+            #second {
+                color: $green;
+            }
+            #third {
+                color: $yellow;
+            }
+            #fourth {
+                color: $rose;
+            }
+        }
+    }
+
+    h3{
+        @include heading("IBM Plex Sans", 24px, 700, 31.2px,$black);
+        text-align: center;
+        margin-top: 56px;
+        margin-bottom: 16px;
+    }
+
+    p{
+        @include paragraph("IBM Plex Sans", 18px, 400, $black);
+        text-align: center;
+    }
+}
+// =========== why scss end
+
+// =========== news scss start
+.news{
+    background: $offWide3;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .title{
+        h2{
+            @include paragraph("Yellowtail", 30px, 400, $yellow );
+        }
+        h3{
+            @include paragraph("IBM Plex Sans", 54px, 700, $black );
+            position: relative;
+            width: 407px;
+            margin-top: 4px;
+        }
+        h3:after{
+            width: 80px;
+            height: 2px;
+            background: $black;
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -31;
+        }
+    }
+
+    .text{
+        display: flex;
+        height: 200px;
+        
+        p{
+            @include paragraph("IBM Plex Sans", 18px, 400, $black );
+            width: 638px;
+            align-self: center;
+        }
+    }
+
+    .div{
+        margin-top: 60px;
+
+        .card{
+            border-radius: 10px;
+    
+            .card-detail{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+    
+                h2{
+                    @include heading("IBM Plex Sans", 28px, 700, 36.4px, $black);
+                    width: 395px;
+                    margin-top: 27px;
+                }
+                p{
+                    @include paragraph("IBM Plex Sans", 18px, 400, $black);
+                    margin-top: 20px;
+                    margin-bottom: 45px;
+                    width: 365px;
+                }
+                a{
+                    @include paragraph("IBM Plex Sans", 18px, 700, $yellow);
+                    text-decoration: none;
+                    display: block;
+                    padding: 37px 139px 30px;
+                    border-top: 2px solid lighten($black, $amount: 70) ;
+                }
+            }
+    
+        }
+    }
+
+}
+// =========== news scss end
+
+// =========== fiveIcon scss start
+.fiveIcon{
+    padding: 45px;
+
+    .row{
+        justify-content: space-between;
+
+        .div{
+           text-align: center;
+        }
+    }
+   
+}
+// =========== fiveIcon scss end
+
+// =========== footer scss start
+.footer{    
+    .custom-width-left{
+        padding: 0;
+        width: 37.5%;
+
+        .div1{
+            img{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+
+    .custom-width-right{
+        padding-top: 75px;
+        padding-left: 137px;
+        width: 62.4%;
+        background: $cyprus;
+
+        img{
+            display: block;
+            margin-bottom: 50px;
+        }
+
+        a{
+            @include button($white, $yellow);
+            display: inline-block;
+            &:hover{
+                color: $black;
+                background: $white;
+            }
+        }
+
+        p{
+            @include paragraph("IBM Plex Sans", 18px, 400, $white);
+            width: 559px;
+            margin-top: 20px;
+        }
+        .line{
+            width: 72%;
+            height: 2px;
+            background: $offWide;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .row{
+            h2{
+                @include heading("IBM Plex Sans", 30px, 700, 39px, $white);
+                position: relative;
+                margin-bottom: 45px;
+            }
+
+            h2:after{
+                width: 50px;
+                height: 2px;
+                background: $offWide2;
+                content: "";
+                position: absolute;
+                bottom: -25px;
+                left: 0;
+            }
+
+            p{
+                @include paragraph("IBM Plex Sans", 18px, 400, $white);
+
+            }
+            #asdf{
+                margin-top: 26px;
+                margin-bottom: 24px;
+            }
+        }
+
+        #hjkl{
+            margin-top: 72px;
+        }
+    }
+}
+// =========== footer scss end

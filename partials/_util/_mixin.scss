@@ -1,0 +1,81 @@
+// ========button==============
+
+@mixin button( $color, $bgColor ){
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700; 
+    color: $color; 
+    background: $bgColor;
+    text-decoration: none;
+    padding: 15px 25px; 
+    border-radius: 5px;
+    border: none;
+    transition: ease .4s;
+}
+
+// ========title==============
+
+@mixin title($ff, $fs, $fw, $c, $additional-properties: ()){
+        font-family: $ff;
+        font-size: $fs;
+        font-weight: $fw; 
+        color: $c;
+       
+}
+
+// ========heading==============
+
+@mixin heading($ff, $fs, $fw, $lh, $c, $additional-properties: ()){
+        font-family: $ff;
+        font-size: $fs;
+        font-weight: $fw; 
+        line-height: $lh;
+        color: $c;
+}
+
+// ========paragraph==============
+
+@mixin paragraph($ff, $fs, $fw, $c, $additional-properties: ()){
+        font-family: $ff;
+        font-size: $fs;
+        font-weight: $fw; 
+        color: $c;
+}
+
+// ========responsive==============
+      
+@mixin responsive ($breakpoint){
+  @if $breakpoint == mobile {
+    @media (min-width:320px) and (max-width:575.99px){
+      @content;
+    }
+  }
+  @else if $breakpoint == sm {
+    @media (min-width:576px) and (max-width:767.99px){
+      @content;
+    }
+  }
+  @else if $breakpoint == md {
+    @media (min-width:768px) and (max-width:991.99px){
+      @content;
+    }
+  }
+  @else if $breakpoint == lg {
+    @media (min-width:992px) and (max-width:1199.99px){
+      @content;
+    }
+  }
+  @else if $breakpoint == xl {
+    @media (min-width:1200px) and (max-width:1399.99px){
+      @content;
+    }
+  }
+  @else if $breakpoint == xxl {
+    @media (min-width:1400px) and (max-width:1599.99px){
+      @content;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,3066 @@
+@use "../partials/_util/index" as *;
+@forward "../partials/_base/index";
+
+
+//  =================================== mobile responsive start
+@include responsive (mobile){
+
+//  ========= navbar section start
+
+    nav{
+        .navbar-brand img {
+            width: 50%;
+        }
+
+        .navbar-toggler {
+            background-color: #ffffff;
+    
+        }
+    
+        .navbar-collapse {
+            background: $cyprus;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbtn {
+            display: inline-block;
+            font-size: 16px;
+            padding: 12px 22px;
+        }
+
+        ul li .nav-link {
+            font-size: 16px;
+        }
+
+    }
+    
+//  ========= navbar section end
+
+//  ========= hero section start
+
+.hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+
+    h1 {
+        font-size: 24px;
+        width: auto;
+        line-height: initial;
+    }
+
+    .hero-btn-1,
+    .hero-btn-2 {
+        font-size: 16px;
+        padding: 10px 13px;
+        margin: 0 5px;
+    }
+
+    .buttons {
+        margin-top: 30px;
+    }
+}
+
+//  ========= hero section end
+
+//  ========= adventures section start
+
+.adventures {
+    margin-top: 36px;
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 27px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    li:first-child {
+        margin-top: 25px;
+    }
+
+    li {
+        margin-top: 15px;
+    }
+
+    li:last-child {
+        margin-bottom: 25px;
+    }
+
+    .adventure-btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        display: inline-block;
+    }
+
+    img,
+    svg {
+        display: none;
+    }
+
+
+}
+
+//  ========= adventures section end
+
+//  ========= Adventures-under section start
+
+.Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .item h4 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .item p {
+        font-size: 16px;
+        line-height: 12.4px;
+    }
+
+    .item {
+        padding-top: 20px;
+        padding-bottom: 22px;
+        margin-bottom: 15px;
+    }
+
+    img,
+    svg {
+        height: 119px;
+        width: 303px;
+    }
+}
+
+//  ========= Adventures-under section end
+
+//  ========= Activities section start
+
+.Activities {
+    h3 {
+        font-size: 20px;
+        margin-top: 51px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 35.2px;
+        margin-bottom: 0;
+    }
+
+    h2::after {
+        bottom: -20px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+}
+
+//  ========= Activities section end
+
+//  ========= Activities-under section start
+
+.Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .row-gap-5 {
+        row-gap: 1rem !important;
+
+        .card .box {
+            h3 {
+                font-size: 20px;
+                line-height: 15px;
+                padding-top: 19px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-top: 15px;
+                padding-bottom: 15px;
+            }
+        }
+    }
+
+    #img {
+        display: none;
+    }
+}
+
+//  ========= Activities-under section end
+
+//  ========= ExtremeSports section start
+
+.ExtremeSports {
+    h2 {
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .div {
+        padding-top: 53px;
+
+        h3 {
+            font-size: 19px;
+            font-weight: 900;
+            line-height: 35.2px;
+            margin-top: 16px;
+        }
+
+        h4 {
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 25px;
+        }
+
+        .box {
+            margin-top: 35px;
+            padding-bottom: 55px;
+
+            .ExtremeSports-under-btn1 {
+                font-size: 16px;
+                padding: 10px 6px;
+                margin-right: 2px;
+            }
+
+            .ExtremeSports-under-btn2 {
+                font-size: 16px;
+                padding: 10px 5px;
+                margin-left: 3px;
+            }
+        }
+
+        .overlay {
+            .details {
+                margin-left: 40px;
+            }
+
+            h5 {
+                font-size: 30px;
+                line-height: 30px;
+                margin-bottom: 15px;
+            }
+
+            h6 {
+                font-size: 20px;
+                line-height: 25px;
+                margin-bottom: 40px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+
+            p::after {
+                width: 200px;
+                top: -18px;
+            }
+        }
+
+        .card {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+//  ========= ExtremeSports section end
+
+//  ========= why section start
+
+.why {
+    margin-top: 60px;
+    padding-bottom: 27px;
+
+    .title {
+        h2 {
+            font-size: 25px;
+            line-height: 25.88px;
+        }
+
+        h3 {
+            font-size: 35px;
+            line-height: 50.2px;
+            margin-top: 5px;
+            margin-bottom: 49px;
+        }
+
+        h3::after {
+            bottom: -20px;
+        }
+    }
+
+    .details {
+        .icon {
+            width: 100px;
+            height: 100px;
+
+            i {
+                font-size: 45px;
+            }
+        }
+
+        h3 {
+            font-size: 17px;
+            line-height: 30px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+//  ========= why section end
+
+//  ========= news section start
+
+.news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .title {
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 28px;
+            width: 208px;
+            margin-top: 5px;
+        }
+
+        h3::after {
+            bottom: -12;
+        }
+
+    }
+
+    .text {
+        p {
+            font-size: 16px;
+            width: 279px;
+            text-align: justify;
+        }
+    }
+
+    .div {
+        margin-top: 0;
+
+        .card {
+            margin-bottom: 15px;
+
+            .card-detail {
+                h2 {
+                    font-size: 14px;
+                    line-height: 24.4px;
+                    width: 221px;
+                    margin-top: 12px;
+                }
+
+                p {
+                    font-size: 16px;
+                    margin-top: 10px;
+                    margin-bottom: 22px;
+                    width: 266px;
+                }
+
+                a {
+                    font-size: 16px;
+                    padding: 15px 70px 15px;
+                }
+            }
+        }
+    }
+
+}
+
+//  ========= news section end
+
+//  ========= fiveIcon section start
+
+.fiveIcon {
+	display: none;
+}
+
+//  ========= fiveIcon section end
+
+//  ========= footer section start
+.footer {
+    .custom-width-left {
+        display: none;
+    }
+
+    .custom-width-right {
+        padding-top: 40px;
+        padding-left: 40px;
+        width: 100%;
+
+        img {
+            margin-bottom: 25px;
+        }
+
+        a {
+            font-size: 16px;
+            padding: 12px 15px;
+        }
+
+        .row {
+            #row-one-p {
+                width: 270px;
+                font-size: 16px;
+                text-align: justify;
+                margin-top: 20px;
+            }
+
+            // p {
+            //     font-size: 16px;
+            //     text-align: justify;
+            //     width: 265px;
+            //     padding-top: 20px;
+            // }
+            h2 {
+                font-size: 20px;
+                line-height: 25px;
+                color: white;
+                position: relative;
+            }
+
+            h2::after {
+                width: 43px;
+                bottom: -15px;
+            }
+
+            // p {
+            // }
+            p:first-child {
+                margin-top: 30px;
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+
+            p:last-child {
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+
+            #asdf {
+                font-size: 14px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+
+        }
+
+        .line {
+            width: 91%;
+            margin-top: 12px;
+            margin-bottom: 30px;
+        }
+
+        #hjkl {
+            margin-top: 50px;
+            font-size: 14px;
+            font-weight: 300;
+            width: 268px;
+        }
+    }
+}
+//  ========= footer section end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+}
+//  =================================== mobile responsive end
+
+
+//  =================================== sm responsive start
+@include responsive (sm){
+//  ========= navbar section start
+
+    nav{
+        .navbar-brand img {
+            width: 70%;
+    
+        }
+    
+        .navbar-toggler {
+            background-color: #ffffff;
+        }
+    
+        .navbar-collapse {
+            background: $cyprus;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbtn {
+            display: inline-block;
+            font-size: 16px;
+            padding: 12px 22px;
+        }
+    
+        ul li .nav-link {
+            font-size: 16px;
+        }
+
+    }
+    
+//  ========= navbar section end
+
+//  ========= hero section start
+
+.hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+
+    h1 {
+        font-size: 37px;
+        width: auto;
+        line-height: 50px;
+    }
+    .buttons{
+        margin-top: 35px;
+
+        .hero-btn-1,
+        .hero-btn-2 {
+            font-size: 16px;
+            padding: 13px 26px;
+            margin: 0 7px;
+        }
+    }
+
+}
+
+//  ========= hero section end
+
+//  ========= adventures section start
+
+.adventures {
+    margin-top: 36px;
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 37px;
+        line-height: 43px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    li:first-child {
+        margin-top: 25px;
+    }
+
+    li {
+        margin-top: 15px;
+    }
+
+    li:last-child {
+        margin-bottom: 25px;
+    }
+
+    .adventure-btn {
+        font-size: 16px;
+        padding: 13px 26px;
+        display: inline-block;
+    }
+
+    img,
+    svg {
+        display: none;
+    }
+
+
+}
+
+//  ========= adventures section end
+
+//  ========= Adventures-under section start
+
+.Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .item h4 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .item p {
+        font-size: 16px;
+        line-height: 12.4px;
+    }
+
+    .item {
+        padding-top: 20px;
+        padding-bottom: 22px;
+        margin-bottom: 15px;
+    }
+
+    img,
+    svg {
+        width: 250px;
+        height: 125px;
+    }
+}
+
+//  ========= Adventures-under section end
+
+//  ========= Activities section start
+
+.Activities {
+    h3 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 37px;
+        line-height: 43.2px;
+        margin-bottom: 5px;
+        width: 265px;
+    }
+
+    h2::after {
+        bottom: -20px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+}
+
+//  ========= Activities section end
+
+//  ========= Activities-under section start
+
+.Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .row-gap-5 {
+        row-gap: 1.5rem !important;
+
+        .card .box {
+            h3 {
+                font-size: 25px;
+                line-height: 15px;
+                padding-top: 19px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-top: 15px;
+                padding-bottom: 15px;
+            }
+        }
+    }
+
+    #img {
+        display: none;
+    }
+}
+
+//  ========= Activities-under section end
+
+//  ========= ExtremeSports section start
+
+.ExtremeSports {
+     h2 {
+        font-size: 80px;
+        line-height: 70px;
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .div {
+        padding-top: 53px;
+
+        h3 {
+            font-size: 26px;
+            font-weight: 900;
+            line-height: 37.2px;
+            margin-top: 22px;
+        }
+
+        h4 {
+            font-size: 20px;
+            line-height: 28px;
+            margin-top: 25px;
+        }
+
+        .box {
+            margin-top: 35px;
+            padding-bottom: 55px;
+
+            .ExtremeSports-under-btn1 {
+                font-size: 18px;
+                padding: 13px 20px;
+                margin-right: 13px;
+            }
+
+            .ExtremeSports-under-btn2 {
+                font-size: 18px;
+                padding: 13px 20px;
+            }
+        }
+
+        .overlay {
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                width: 119%;
+                height: 100%;
+                text-align: left !important;
+                position: absolute;
+                left: -27px;
+                bottom: -18%;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+                transition: 0.4s ease-in-out;
+            
+            .details {
+                margin-left: 40px;
+            }
+
+            h5 {
+                font-size: 25px;
+                line-height: 32px;
+                margin-bottom: 10px;
+            }
+
+            h6 {
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 25px;
+                width: 126px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 15px;
+                width: 150px;
+            }
+
+            p::after {
+                width: 200px;
+                top: -18px;
+            }
+        }
+
+        .card {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+//  ========= ExtremeSports section end
+
+//  ========= why section start
+
+.why {
+    margin-top: 60px;
+    padding-bottom: 0;
+
+    .title {
+        h2 {
+            font-size: 30px;
+            line-height: 30.88px;
+        }
+
+        h3 {
+            font-size: 37px;
+            line-height: 50.2px;
+            margin-top: 5px;
+            margin-bottom: 49px;
+        }
+
+        h3::after {
+            bottom: -20px;
+        }
+    }
+
+    .details {
+       
+            margin-bottom: 20px;
+
+        .icon {
+            width: 100px;
+            height: 100px;
+
+            i {
+                font-size: 45px;
+            }
+        }
+
+        h3 {
+            font-size: 17px;
+            line-height: 30px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+//  ========= why section end
+
+//  ========= news section start
+
+.news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .title {
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 37px;
+            width: 265px;
+            margin-top: 5px;
+        }
+
+        h3::after {
+            bottom: -12;
+            background:  rgb(160, 160, 160);
+        }
+
+    }
+
+    .text {
+        height: 130px;
+
+        p {
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 503px;
+            text-align: justify;
+        }
+    }
+
+    .div {
+        margin-top: 0;
+
+        .card {
+            margin-bottom: 20px;
+
+            .card-detail {
+                h2 {
+                    font-size: 16px;
+                    line-height: 20.4px;
+                    width: 123px;
+                    margin-top: 15px;
+                }
+
+                p {
+                    font-size: 16px;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    width: 140px;
+                }
+
+                a {
+                    width: 135px;
+                    font-size: 14px;
+                    padding: 12px 20px 12px;
+                }
+            }
+        }
+    }
+
+}
+
+//  ========= news section end
+
+//  ========= fiveIcon section start
+.fiveIcon{
+    padding: 30px;
+
+    .row .div {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+//  ========= fiveIcon section end
+
+//  ========= footer section start
+.footer {
+    .custom-width-left {
+        display: none;
+    }
+
+    .custom-width-right {
+        padding-top: 40px;
+        padding-left: 40px;
+        width: 100%;
+
+        img {
+            margin-bottom: 35px;
+            width: 35%;
+        }
+
+        a {
+            font-size: 16px;
+            padding: 13px 22px;
+        }
+
+        .row {
+            #row-one-p {
+                width: 426px;
+                font-size: 16px;
+                text-align: justify;
+                margin-top: 20px;
+            }
+
+            
+            h2 {
+                font-size: 26px;
+                line-height: 30px;
+                color: white;
+                position: relative;
+            }
+
+            h2::after {
+                width: 60px;
+                bottom: -15px;
+            }
+
+            p:first-child {
+                font-size: 16px;
+                margin-top: 30px;
+                margin-bottom: 0;
+            }
+
+            p:last-child {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+
+            #asdf {
+                font-size: 16px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+
+        }
+
+        .line {
+            width: 91%;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        #hjkl {
+            margin-top: 50px;
+            font-size: 14px;
+            font-weight: 300;
+            width: 427px;
+        }
+    }
+}
+//  ========= footer section end
+       
+}
+//  =================================== sm responsive end
+
+
+//  =================================== md responsive start
+@include responsive (md){
+    //  ========= navbar section start
+    
+        nav{
+            .navbar-brand img {
+                width: 70%;
+        
+            }
+        
+            .navbar-toggler {
+                background-color: #ffffff;
+            }
+        
+            .navbar-collapse {
+                background: $cyprus;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .navbtn {
+                display: inline-block;
+                font-size: 16px;
+                padding: 12px 22px;
+            }
+        
+            ul li .nav-link {
+                font-size: 16px;
+            }
+
+        }
+        
+    //  ========= navbar section end
+    
+    //  ========= hero section start
+    
+    .hero {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    
+        h1 {
+            font-size: 42px;
+            width: auto;
+            line-height: 55px;
+        }
+        .buttons{
+            margin-top: 35px;
+    
+            .hero-btn-1,
+            .hero-btn-2 {
+                font-size: 16px;
+                padding: 13px 26px;
+                margin: 0 7px;
+            }
+        }
+    
+    }
+    
+    //  ========= hero section end
+    
+    //  ========= adventures section start
+    
+    .adventures {
+        margin-top: 36px;
+
+        .title{
+            margin-bottom: 15px;
+        }
+    
+        h3 {
+            font-size: 30px;
+        }
+
+         h2 {
+            font-size: 35px;
+            line-height: 40px;
+            width: 388;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        ul {
+            font-size: 16px;
+        }
+    
+        li:first-child {
+            margin-top: 40px;
+        }
+    
+        li {
+            margin-top: 20px;
+        }
+    
+        li:last-child {
+            margin-bottom: 40px;
+        }
+    
+        .adventure-btn {
+            font-size: 18px;
+            padding: 15px 35px;
+        }
+    
+        img,
+        svg {
+            display: none;
+        }
+    
+    }
+    
+    //  ========= adventures section end
+    
+    //  ========= Adventures-under section start
+    
+    .Adventures-under {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        .item h4 {
+            font-size: 40px;
+            line-height: 52px;
+        }
+    
+        .item p {
+            font-size: 16px;
+            line-height: 12.4px;
+        }
+    
+        .item {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+        }
+    
+        img,svg {
+            width: 325px;
+            height: 155px;
+        }
+    }
+    
+    //  ========= Adventures-under section end
+    
+    //  ========= Activities section start
+    
+    .Activities {
+        h3 {
+            font-size: 30px;
+            margin-top: 50px;
+        }
+    
+        h2 {
+            font-size: 37px;
+            line-height: 45.2px;
+            margin-bottom: 5px;
+            width: 290px;
+        }
+    
+        h2::after {
+            bottom: -20px;
+        }
+    
+        p {
+            font-size: 16px;
+            margin-top: 50px;
+        }
+    }
+    
+    //  ========= Activities section end
+    
+    //  ========= Activities-under section start
+    
+    .Activities-under {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .row-gap-5 {
+            row-gap: 1.5rem !important;
+    
+            .card .box {
+                h3 {
+                    font-size: 25px;
+                    line-height: 15px;
+                    padding-top: 19px;
+                }
+    
+                p {
+                    font-size: 17px;
+                    margin-top: 15px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    
+        #img {
+            display: none;
+        }
+    }
+    
+    //  ========= Activities-under section end
+    
+    //  ========= ExtremeSports section start
+    
+    .ExtremeSports {
+        h2 {
+            font-size: 90px;
+            line-height: 70px;
+            padding-top: 70px;
+            margin-bottom: 0px;
+        }
+    
+        .div {
+            padding-top: 53px;
+    
+            h3 {
+                font-size: 26px;
+                font-weight: 900;
+                line-height: 37.2px;
+                margin-top: 22px;
+            }
+    
+            h4 {
+                font-size: 20px;
+                line-height: 28px;
+                margin-top: 25px;
+            }
+    
+            .box {
+                margin-top: 35px;
+                padding-bottom: 55px;
+    
+                .ExtremeSports-under-btn1 {
+                    font-size: 18px;
+                    padding: 13px 20px;
+                    margin-right: 13px;
+                }
+    
+                .ExtremeSports-under-btn2 {
+                    font-size: 18px;
+                    padding: 13px 20px;
+                }
+            }
+    
+            .overlay {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    width: 119%;
+                    height: 100%;
+                    text-align: left !important;
+                    position: absolute;
+                    left: -27px;
+                    bottom: -18%;
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+                    transition: 0.4s ease-in-out;
+                
+                .details {
+                    margin-left: 60px;
+                }
+    
+                h5 {
+                    font-size: 25px;
+                    line-height: 35px;
+                    margin-bottom: 10px;
+                    width: 147;
+                }
+    
+                h6 {
+                    font-size: 16px;
+                    line-height: 25px;
+                    margin-bottom: 30px;
+                    width: 126px;
+                }
+    
+                p {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                    width: 150px;
+                }
+    
+                p::after {
+                    width: 150px;
+                    top: -18px;
+                }
+            }
+    
+            .card {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    //  ========= ExtremeSports section end
+    
+    //  ========= why section start
+    
+    .why {
+        margin-top: 60px;
+        padding-bottom: 0;
+    
+        .title {
+            h2 {
+                font-size: 30px;
+                line-height: 30.88px;
+            }
+    
+            h3 {
+                font-size: 40px;
+                line-height: 50.2px;
+                margin-top: 15px;
+                margin-bottom: 49px;
+            }
+    
+            h3::after {
+                bottom: -20px;
+            }
+        }
+    
+        .details {
+           
+                margin-bottom: 20px;
+    
+            .icon {
+                width: 100px;
+                height: 100px;
+    
+                i {
+                    font-size: 45px;
+                }
+            }
+    
+            h3 {
+                font-size: 22px;
+                line-height: 33px;
+                margin-top: 25px;
+                margin-bottom: 15px;
+            }
+    
+            p {
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    
+    //  ========= why section end
+    
+    //  ========= news section start
+    
+    .news {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .title {
+            h2 {
+                font-size: 30px;
+            }
+    
+            h3 {
+                font-size: 37px;
+                width: 265px;
+                margin-top: 5px;
+            }
+    
+            h3::after {
+                bottom: -12;
+                background: rgb(160, 160, 160);
+            }
+    
+        }
+    
+        .text {
+            height: 130px;
+    
+            p {
+                font-size: 16px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                width: 800px;
+                text-align: justify;
+            }
+        }
+    
+        .div {
+            margin-top: 0;
+    
+            .card {
+                margin-bottom: 20px;
+    
+                .card-detail {
+                    h2 {
+                        font-size: 16px;
+                        line-height: 25.4px;
+                        width: 202px;
+                        margin-top: 15px;
+                    }
+    
+                     p {
+                        font-size: 16px;
+                        margin-top: 5px;
+                        margin-bottom: 15px;
+                        width: 200px;
+                    }
+    
+                    a {
+                        width: 198px;
+                        font-size: 16px;
+                        padding: 12px 20px 12px;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    //  ========= news section end
+    
+    //  ========= fiveIcon section start
+    .fiveIcon{
+        padding: 30px;
+    
+        .row .div {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+    
+    //  ========= fiveIcon section end
+    
+    //  ========= footer section start
+    .footer {
+        .custom-width-left {
+            display: none;
+        }
+    
+        .custom-width-right {
+            padding-top: 40px;
+            padding-left: 40px;
+            width: 100%;
+    
+            img {
+                margin-bottom: 30px;
+            }
+    
+            a {
+                font-size: 16px;
+                padding: 15px 30px;
+            }
+    
+            .row {
+                #row-one-p {
+                    width: 672px;
+                    font-size: 16px;
+                    text-align: justify;
+                    margin-top: 20px;
+                }
+                
+                h2 {
+                    font-size: 30px;
+                    line-height: 30px;
+                    color: white;
+                    position: relative;
+                }
+    
+                h2::after {
+                    width: 60px;
+                    bottom: -15px;
+                }
+    
+                p:first-child {
+                    font-size: 16px;
+                    margin-top: 30px;
+                    margin-bottom: 0;
+                }
+    
+                p:last-child {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+    
+                #asdf {
+                    font-size: 16px;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                }
+    
+            }
+    
+            .line {
+                width: 91%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+    
+            #hjkl {
+                margin-top: 50px;
+                font-size: 14px;
+                font-weight: 300;
+                width: 427px;
+            }
+        }
+    }
+    //  ========= footer section end       
+    }
+
+//  =================================== md responsive end
+
+
+//  =================================== md responsive start
+@include responsive (lg){
+    //  ========= navbar section start
+    
+        nav{
+            .navbar-brand{
+                img {
+                    width: 100%;
+            
+                }
+            }
+            .navbar-nav {
+                column-gap: 20px;
+            }
+            .navbtn {
+                display: inline-block;
+                font-size: 16px;
+                padding: 12px 22px;
+            }
+            ul li .nav-link {
+                font-size: 16px;
+            }
+        }
+           
+    //  ========= navbar section end
+    
+    //  ========= hero section start
+    
+    .hero {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    
+        h1 {
+            font-size: 40px;
+            width: 481;
+            line-height: 60px;
+        }
+
+        .buttons{
+            margin-top: 40px;
+    
+            .hero-btn-1,
+            .hero-btn-2 {
+                font-size: 16px;
+                padding: 13px 26px;
+                margin: 0 15px;
+            }
+        }
+    
+    }
+    
+    //  ========= hero section end
+    
+    //  ========= adventures section start
+    
+    .adventures {
+        margin-top: 36px;
+
+        .title{
+            margin-bottom: 15px;
+        }
+       
+        h3 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 40px;
+            line-height: 46px;
+        }
+        p {
+            font-size: 16px;
+            width: 705px;
+        }
+    
+        ul {
+            font-size: 16px;
+        }
+    
+        li:first-child {
+            margin-top: 40px;
+        }
+    
+        li {
+            margin-top: 20px;
+        }
+    
+        li:last-child {
+            margin-bottom: 40px;
+        }
+    
+        .adventure-btn {
+            font-size: 18px;
+            padding: 15px 35px;
+        }
+    
+        img,
+        svg {
+            display: none;
+        }
+    
+    }
+    
+    //  ========= adventures section end
+    
+    //  ========= Adventures-under section start
+    
+    .Adventures-under {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        .item h4 {
+            font-size: 40px;
+            line-height: 52px;
+        }
+    
+        .item p {
+            font-size: 16px;
+            line-height: 12.4px;
+        }
+    
+        .item {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+        }
+    
+        img,svg {
+            width: 325px;
+            height: 155px;
+        }
+    }
+    
+    //  ========= Adventures-under section end
+    
+    //  ========= Activities section start
+    
+    .Activities {
+        h3 {
+            font-size: 30px;
+            margin-top: 50px;
+        }
+    
+        h2 {
+            font-size: 37px;
+            line-height: 45.2px;
+            margin-bottom: 35px;
+            width: 290px;
+        }
+    
+        h2::after {
+            bottom: -20px;
+        }
+    
+        p {
+            font-size: 16px;
+            margin-top: 102px;
+            text-align: justify;
+        }
+    }
+    
+    //  ========= Activities section end
+    
+    //  ========= Activities-under section start
+    
+    .Activities-under {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .row-gap-5 {
+            row-gap: 1.5rem !important;
+    
+            .card .box {
+                h3 {
+                    font-size: 25px;
+                    line-height: 15px;
+                    padding-top: 19px;
+                }
+    
+                p {
+                    font-size: 17px;
+                    margin-top: 15px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    
+        #img {
+            display: none;
+        }
+    }
+    
+    //  ========= Activities-under section end
+    
+    //  ========= ExtremeSports section start
+    
+    .ExtremeSports {
+        h2 {
+            font-size: 90px;
+            line-height: 70px;
+            padding-top: 70px;
+            margin-bottom: 0px;
+        }
+    
+        .div {
+            padding-top: 53px;
+    
+            h3 {
+                font-size: 32px;
+                font-weight: 900;
+                line-height: 40.2px;
+                margin-top: 22px;
+            }
+    
+            h4 {
+                font-size: 20px;
+                line-height: 28px;
+                margin-top: 25px;
+            }
+    
+            .box {
+                margin-top: 35px;
+                padding-bottom: 55px;
+    
+                .ExtremeSports-under-btn1 {
+                    font-size: 18px;
+                    padding: 13px 20px;
+                    margin-right: 13px;
+                }
+    
+                .ExtremeSports-under-btn2 {
+                    font-size: 18px;
+                    padding: 13px 20px;
+                }
+            }
+    
+            .overlay {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    width: 119%;
+                    height: 100%;
+                    text-align: left !important;
+                    position: absolute;
+                    left: -27px;
+                    bottom: -18%;
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+                    transition: 0.4s ease-in-out;
+                
+                .details {
+                    margin-left: 60px;
+                }
+    
+                h5 {
+                    font-size: 25px;
+                    line-height: 35px;
+                    margin-bottom: 10px;
+                    width: 147;
+                }
+    
+                h6 {
+                    font-size: 16px;
+                    line-height: 25px;
+                    margin-bottom: 30px;
+                    width: 126px;
+                }
+    
+                p {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                    width: 150px;
+                }
+    
+                p::after {
+                    width: 150px;
+                    top: -18px;
+                }
+            }
+    
+            .card {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    //  ========= ExtremeSports section end
+    
+    //  ========= why section start
+    
+    .why {
+        margin-top: 60px;
+        padding-bottom: 0;
+    
+        .title {
+            h2 {
+                font-size: 35px;
+                line-height: 30.88px;
+            }
+    
+            h3 {
+                font-size: 49px;
+                line-height: 56.2px;
+                margin-top: 15px;
+                margin-bottom: 49px;
+            }
+    
+            h3::after {
+                bottom: -20px;
+            }
+        }
+    
+        .details {
+           
+                margin-bottom: 20px;
+    
+            .icon {
+                width: 100px;
+                height: 100px;
+    
+                i {
+                    font-size: 45px;
+                }
+            }
+    
+            h3 {
+                font-size: 18px;
+                line-height: 33px;
+                margin-top: 25px;
+                margin-bottom: 15px;
+            }
+    
+            p {
+                font-size: 15px;
+                margin-bottom: 25px;
+                width: 224px;
+            }
+        }
+    }
+    
+    //  ========= why section end
+    
+    //  ========= news section start
+    
+    .news {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .title {
+            h2 {
+                font-size: 35px;
+            }
+    
+            h3 {
+                font-size: 37px;
+                width: 265px;
+                margin-top: 5px;
+            }
+    
+            h3::after {
+                bottom: -12;
+                background: rgb(160, 160, 160);
+            }
+    
+        }
+    
+        .text {
+            height: 130px;
+    
+            p {
+                font-size: 16px;
+                margin-top: 65px;
+                margin-bottom: 0px;
+                width: 800px;
+                text-align: justify;
+            }
+        }
+    
+        .div {
+            margin-top: 60px;
+    
+            .card {
+                margin-bottom: 20px;
+    
+                .card-detail {
+                    h2 {
+                        font-size: 16px;
+                        line-height: 25.4px;
+                        width: 258px;
+                        margin-top: 15px;
+                    }
+    
+                    p {
+                        font-size: 16px;
+                        margin-top: 5px;
+                        margin-bottom: 15px;
+                        width: 266px;
+                    }
+    
+                    a {
+                        width: 270px;
+                        font-size: 16px;
+                        padding: 12px 20px 12px;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    //  ========= news section end
+    
+    //  ========= fiveIcon section start
+    .fiveIcon{
+        padding: 30px;
+    
+        .row .div {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+    
+    //  ========= fiveIcon section end
+    
+    //  ========= footer section start
+    .footer {
+        .custom-width-left .div1 img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+
+        .custom-width-right {
+            padding-top: 40px;
+            padding-left: 40px;
+    
+            img {
+                margin-bottom: 30px;
+                width: 35%;
+            }
+    
+            a {
+                font-size: 14px;
+                padding: 12px 19px;
+            }
+    
+            .row {
+                #row-one-p {
+                    width: 395px;
+                    font-size: 15px;
+                    text-align: justify;
+                    margin-top: 0;
+                }
+
+                h2 {
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: white;
+                    position: relative;
+                }
+    
+                h2::after {
+                    width: 60px;
+                    bottom: -15px;
+                }
+    
+                 p:first-child {
+                    font-size: 15px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+    
+                p:last-child {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+    
+                #asdf {
+                    font-size: 16px;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                }
+    
+            }
+    
+            .line {
+                width: 94%;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+    
+            #hjkl {
+                margin-top: 30px;
+                font-size: 14px;
+                font-weight: 300;
+                width: 427px;
+            }
+        }
+    }
+    //  ========= footer section end       
+    }
+//  =================================== md responsive end
+
+
+//  =================================== md responsive start
+@include responsive (xl){
+    //  ========= navbar section start
+    
+        nav{
+            .navbar-brand img {
+                width: 100%;
+            }
+
+            .navbar-toggler {
+                background-color: #ffffff;
+            }
+        
+            .navbar-collapse {
+                padding: 20px;
+                text-align: center;
+            }
+        
+            .navbtn {
+                display: inline-block;
+                font-size: 16px;
+                padding: 15px 26px;
+            }
+
+            ul li .nav-link {
+                font-size: 16px;
+            }
+        }
+        
+    //  ========= navbar section end
+    
+    //  ========= hero section start
+    
+    .hero {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    
+         h1 {
+            font-size: 60px;
+            width: 900;
+            line-height: 70px;
+        }
+        .buttons{
+            margin-top: 60px;
+            margin-bottom: 20px;
+    
+            .hero-btn-1,
+            .hero-btn-2 {
+                font-size: 18px;
+                padding: 15px 30px;
+                margin: 0 10px;
+            }
+        }
+    
+    }
+    
+    //  ========= hero section end
+    
+    //  ========= adventures section start
+    
+    .adventures {
+        margin-top: 36px;
+
+        .title{
+            margin-bottom: 15px;
+        }
+    
+        h3 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 49px;
+            line-height: 50px;
+        }
+    
+        p {
+            font-size: 18px;
+            width: 800px;
+        }
+    
+        ul {
+            font-size: 18px;
+        }
+    
+        li:first-child {
+            margin-top: 40px;
+        }
+    
+        li {
+            margin-top: 20px;
+        }
+    
+        li:last-child {
+            margin-bottom: 40px;
+        }
+    
+        .adventure-btn {
+            font-size: 20px;
+            padding: 15px 35px;
+        }
+    
+        img,
+        svg {
+            display: none;
+        }
+    
+    }
+    
+    //  ========= adventures section end
+    
+    //  ========= Adventures-under section start
+    
+    .Adventures-under {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        .item h4 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    
+        .item p {
+            font-size: 18px;
+            line-height: 20px;
+        }
+    
+        .item {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+        }
+    
+        img,svg {
+            width: 251px;
+            height: 175px;
+        }
+    }
+    
+    //  ========= Adventures-under section end
+    
+    //  ========= Activities section start
+    
+    .Activities {
+        h3 {
+            font-size: 50px;
+        }
+    
+        h2 {
+            font-size: 50px;
+            line-height: 55px;
+            margin-bottom: 10px;
+            width: 375;
+        }
+    
+        h2::after {
+            bottom: -20px;
+        }
+    
+        p {
+            font-size: 16px;
+            margin-top: 180px;
+        }
+    }
+    
+    //  ========= Activities section end
+    
+    //  ========= Activities-under section start
+    
+    .Activities-under {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .row-gap-5 {
+            row-gap: 1.5rem !important;
+    
+            .card .box {
+                h3 {
+                    font-size: 30px;
+                    line-height: 20px;
+                    padding-top: 22px;
+                }
+    
+                p {
+                    font-size: 18px;
+                    margin-top: 17px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    
+        #img {
+            display: none;
+        }
+    }
+    
+    //  ========= Activities-under section end
+    
+    //  ========= ExtremeSports section start
+    
+    .ExtremeSports {
+        h2 {
+            font-size: 110px;
+            line-height: 90px;
+            padding-top: 80px;
+            margin-bottom: 15px;
+        }
+    
+        .div {
+            padding-top: 53px;
+    
+            h3 {
+                font-size: 39px;
+                font-weight: 900;
+                line-height: 50.2px;
+                margin-top: 25px;
+            }
+    
+            h4 {
+                font-size: 28px;
+                line-height: 30px;
+                margin-top: 25px;
+            }
+    
+            .box {
+                margin-top: 55px;
+                padding-bottom: 55px;
+    
+                .ExtremeSports-under-btn1 {
+                    font-size: 18px;
+                    padding: 15px 30px;
+                    margin-right: 20px;
+                }
+    
+                .ExtremeSports-under-btn2 {
+                    font-size: 18px;
+                    padding: 15px 30px;
+                }
+            }
+    
+            .overlay {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    width: 119%;
+                    height: 100%;
+                    text-align: left !important;
+                    position: absolute;
+                    left: -27px;
+                    bottom: -16%;
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+                    transition: 0.4s ease-in-out;
+                
+                .details {
+                    margin-left: 60px;
+                }
+    
+                h5 {
+                    font-size: 37px;
+                    line-height: 45px;
+                    margin-bottom: 15px;
+                    width: 208px;
+                }
+    
+                h6 {
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-bottom: 35px;
+                    width: 126px;
+                }
+    
+                p {
+                    font-size: 16px;
+                    margin-bottom: 18px;
+                    width: 150px;
+                }
+    
+                p::after {
+                    width: 230px;
+                    top: -20px;
+                }
+            }
+    
+            .card {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    //  ========= ExtremeSports section end
+    
+    //  ========= why section start
+    
+    .why {
+        margin-top: 60px;
+        padding-bottom: 0;
+    
+        .title {
+            h2 {
+                font-size: 45px;
+                line-height: 45px;
+            }
+    
+            h3 {
+                font-size: 70px;
+                line-height: 80.2px;
+                margin-top: 20px;
+                margin-bottom: 50px;
+            }
+    
+            h3::after {
+                bottom: -20px;
+            }
+        }
+    
+        .details {
+           
+                margin-bottom: 20px;
+    
+            .icon {
+                width: 100px;
+                height: 100px;
+    
+                i {
+                    font-size: 45px;
+                }
+            }
+    
+            h3 {
+                font-size: 20px;
+                line-height: 33px;
+                margin-top: 25px;
+                margin-bottom: 15px;
+            }
+    
+            p {
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    
+    //  ========= why section end
+    
+    //  ========= news section start
+    
+    .news {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .title {
+            h2 {
+                font-size: 40px;
+                line-height: 40px;
+            }
+    
+            h3 {
+                font-size: 56px;
+                width: 509px;
+                line-height: 56px;
+                margin-bottom: 60px;
+            }
+    
+            h3::after {
+                bottom: -20;
+                background: rgb(160, 160, 160);
+            }
+    
+        }
+    
+        .text {
+            height: 130px;
+    
+            p {
+                font-size: 16px;
+                margin-top: 60px;
+                margin-bottom: 0px;
+                width: 800px;
+                text-align: justify;
+            }
+        }
+    
+        .div {
+            margin-top: 0;
+    
+            .card {
+                margin-bottom: 20px;
+    
+                .card-detail {
+                     h2 {
+                        font-size: 22px;
+                        line-height: 25.4px;
+                        width: 320px;
+                        margin-top: 20px;
+                    }
+    
+                    p {
+                        font-size: 16px;
+                        margin-top: 5px;
+                        margin-bottom: 15px;
+                        width: 312px;
+                    }
+    
+                    a {
+                        width: 330px;
+                        font-size: 18px;
+                        padding: 15px 30px 15px;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    //  ========= news section end
+    
+    //  ========= fiveIcon section start
+    .fiveIcon{
+        padding: 30px;
+    
+        .row .div {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+    
+    //  ========= fiveIcon section end
+    
+    //  ========= footer section start
+    .footer {
+        .custom-width-left .div1 img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+
+        .custom-width-right {
+            padding-top: 40px;
+            padding-left: 40px;
+
+            .line {
+                width: 91%;
+                margin-top: 20px;
+                margin-bottom: 20;
+            }
+
+            img {
+                margin-bottom: 30px;
+            }
+    
+            a {
+                font-size: 16px;
+                padding: 15px 30px;
+            }
+    
+            .row {
+                #row-one-p {
+                    width: 672px;
+                    font-size: 16px;
+                    text-align: justify;
+                    margin-top: 20px;
+                }
+                
+                h2 {
+                    font-size: 30px;
+                    line-height: 30px;
+                    color: white;
+                    position: relative;
+                }
+    
+                h2::after {
+                    width: 60px;
+                    bottom: -15px;
+                }
+    
+                p:first-child {
+                    font-size: 16px;
+                    margin-top: 30px;
+                    margin-bottom: 0;
+                }
+    
+                p:last-child {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+    
+                #asdf {
+                    font-size: 16px;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                }
+    
+            }
+    
+            .line {
+                width: 91%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+    
+            #hjkl {
+                margin-top: 50px;
+                font-size: 14px;
+                font-weight: 300;
+                width: 427px;
+            }
+        }
+    }
+    //  ========= footer section end       
+    }
+//  =================================== md responsive end
+
+
+//  =================================== md responsive start
+@include responsive (xxl){
+    //  ========= navbar section start
+    
+        nav {
+            .navbar-brand img {
+                width: 100%;
+            }
+        
+            .navbar-toggler {
+                background-color: #ffffff;
+            }
+        
+            .navbar-collapse {
+                padding: 20px;
+                text-align: center;
+            }
+        
+            .navbtn {
+                display: inline-block;
+                font-size: 16px;
+                padding: 15px 30px;
+            }
+        
+            ul li .nav-link {
+                font-size: 18px;
+            }
+        }
+    
+    //  ========= navbar section end
+    
+    //  ========= hero section start
+    
+    .hero {
+        padding-top: 200px;
+        padding-bottom: 90px;
+    
+         h1 {
+            width: 700px;
+            font-size: 48px;
+            line-height: 60px;
+        }
+        .buttons{
+            margin-top: 60px;
+    
+            .hero-btn-1,
+            .hero-btn-2 {
+                font-size: 16px;
+                padding: 15px 30px;
+                margin: 0 20px;
+            }
+        }
+    
+    }
+    
+    //  ========= hero section end
+    
+    //  ========= adventures section start
+    
+    .adventures {
+        margin-top: 36px;
+
+        .title{
+            margin-bottom: 15px;
+        }
+    
+        h3 {
+            font-size: 35px;
+        }
+
+        h2 {
+            width: 500px;
+            font-size: 45px;
+            line-height: 46px;
+        }
+    
+        p {
+            font-size: 16px;
+            width: 701px;
+        }
+    
+        ul {
+            font-size: 16px;
+        }
+    
+        li:first-child {
+            margin-top: 40px;
+        }
+    
+        li {
+            margin-top: 20px;
+        }
+    
+        li:last-child {
+            margin-bottom: 40px;
+        }
+    
+        .adventure-btn {
+            font-size: 18px;
+            padding: 15px 35px;
+        }
+    
+        img,
+        svg {
+            display: none;
+        }
+    
+    }
+    
+    //  ========= adventures section end
+    
+    //  ========= Adventures-under section start
+    
+    .Adventures-under {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        .item h4 {
+            font-size: 45px;
+            line-height: 60px;
+        }
+    
+        .item p {
+            font-size: 20px;
+            line-height: 22.4px;
+        }
+    
+        .item {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+        }
+    
+        img,svg {
+            width: 300px;
+            height: 160px;
+        }
+    }
+    
+    //  ========= Adventures-under section end
+    
+    //  ========= Activities section start
+    
+    .Activities {
+        h3 {
+            font-size: 35px;
+            margin-top: 50px;
+        }
+    
+         h2 {
+            font-size: 45px;
+            line-height: 50px;
+            margin-bottom: 40px;
+            width: 345px;
+        }
+    
+        h2::after {
+            bottom: -20px;
+        }
+    
+        p {
+            font-size: 16px;
+            margin-top: 109px;
+        }
+    }
+    
+    //  ========= Activities section end
+    
+    //  ========= Activities-under section start
+    
+    .Activities-under {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .row-gap-5 {
+            row-gap: 1.5rem !important;
+    
+            .card .box {
+                h3 {
+                    font-size: 30px;
+                    line-height: 15px;
+                    padding-top: 19px;
+                }
+    
+                p {
+                    font-size: 18px;
+                    margin-top: 15px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    
+        #img {
+            display: none;
+        }
+    }
+    
+    //  ========= Activities-under section end
+    
+    //  ========= ExtremeSports section start
+    
+    .ExtremeSports {
+        h2 {
+            font-size:110px;
+            line-height: 70px;
+            padding-top: 70px;
+            margin-bottom: 20px;
+        }
+    
+        .div {
+            padding-top: 53px;
+    
+            h3 {
+                font-size: 30px;
+                font-weight: 900;
+                line-height: 37.2px;
+                margin-top: 22px;
+            }
+    
+            h4 {
+                font-size: 26px;
+                line-height: 28px;
+                margin-top: 35px;
+            }
+    
+            .box {
+                margin-top: 50px;
+                padding-bottom: 55px;
+    
+                .ExtremeSports-under-btn1 {
+                    font-size: 18px;
+                    padding: 13px 20px;
+                    margin-right: 13px;
+                }
+    
+                .ExtremeSports-under-btn2 {
+                    font-size: 18px;
+                    padding: 13px 20px;
+                }
+            }
+    
+            .overlay {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    width: 119%;
+                    height: 100%;
+                    text-align: left !important;
+                    position: absolute;
+                    left: -27px;
+                    bottom: -13%;
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+                    transition: 0.4s ease-in-out;
+                
+                .details {
+                    margin-left: 80px;
+                }
+
+                h5 {
+                    font-size: 35px;
+                    line-height: 44px;
+                    margin-bottom: 10px;
+                    width: 200px;
+                }
+    
+                h6 {
+                    font-size: 18px;
+                    line-height: 25px;
+                    margin-bottom: 30px;
+                    width: 126px;
+                }
+    
+                p {
+                    font-size: 16px;
+                    margin-bottom: 16px;
+                    width: 150px;
+                }
+    
+                p::after {
+                    width: 230px;
+                    top: -18px;
+                }
+            }
+    
+            .card {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    //  ========= ExtremeSports section end
+    
+    //  ========= why section start
+    
+    .why {
+        margin-top: 60px;
+        padding-bottom: 0;
+    
+        .title {
+            h2 {
+                font-size: 35px;
+                line-height: 40.88px;
+            }
+    
+            h3 {
+                font-size: 56px;
+                line-height: 60.2px;
+                margin-top: 20px;
+                margin-bottom: 49px;
+            }
+    
+            h3::after {
+                bottom: -20px;
+            }
+        }
+    
+        .details {
+           
+                margin-bottom: 20px;
+    
+            .icon {
+                width: 150px;
+                height: 150px;
+    
+                i {
+                    font-size: 60px;
+                }
+            }
+    
+            h3 {
+                font-size: 22px;
+                line-height: 33px;
+                margin-top: 25px;
+                margin-bottom: 15px;
+            }
+    
+            p {
+                font-size: 16px;
+                margin-bottom: 25px;
+                width: 313px;
+            }
+        }
+    }
+    
+    //  ========= why section end
+    
+    //  ========= news section start
+    
+    .news {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .title {
+            h2 {
+                font-size: 35px;
+            }
+    
+            h3 {
+                font-size: 45px;
+                width: 341px;
+                margin-top: 5px;
+                margin-bottom: 50;
+            }
+    
+            h3::after {
+                bottom: -12;
+                background: rgb(160, 160, 160);
+            }
+    
+        }
+    
+        .text {
+            height: 130px;
+    
+            p {
+                font-size: 16px;
+                margin-top: 40px;
+                margin-bottom: 0px;
+                width: 800px;
+                text-align: justify;
+            }
+        }
+    
+        .div {
+            margin-top: 0;
+    
+            .card {
+                margin-bottom: 20px;
+    
+                .card-detail {
+                    h2 {
+                        font-size: 18px;
+                        line-height: 25.4px;
+                        width: 274px;
+                        margin-top: 15px;
+                    }
+    
+                    p {
+                        font-size: 16px;
+                        margin-top: 5px;
+                        margin-bottom: 20px;
+                        width: 335px;
+                    }
+    
+                    a {
+                        width: 400px;
+                        font-size: 16px;
+                        padding: 15px 30px 15px;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    //  ========= news section end
+    
+    //  ========= fiveIcon section start
+    .fiveIcon{
+        padding: 30px;
+    
+        .row .div {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+    
+    //  ========= fiveIcon section end
+    
+    //  ========= footer section start
+    .footer {
+        .custom-width-left .div1 img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+
+        .custom-width-right {
+            padding-top: 40px;
+            padding-left: 40px;
+
+            img {
+                margin-bottom: 30px;
+            }
+    
+            a {
+                font-size: 16px;
+                padding: 15px 30px;
+            }
+    
+            .row {
+                #row-one-p {
+                    width: 672px;
+                    font-size: 16px;
+                    text-align: justify;
+                    margin-top: 20px;
+                }
+                
+                h2 {
+                    font-size: 35px;
+                    line-height: 30px;
+                    color: white;
+                    position: relative;
+                }
+    
+                h2::after {
+                    width: 60px;
+                    bottom: -15px;
+                }
+    
+                p:first-child {
+                    font-size: 16px;
+                    margin-top: 30px;
+                    margin-bottom: 0;
+                }
+    
+                p:last-child {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+    
+                #asdf {
+                    font-size: 16px;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                }
+    
+            }
+    
+            .line {
+                width: 91%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+    
+            #hjkl {
+                margin-top: 50px;
+                font-size: 14px;
+                font-weight: 300;
+                width: 427px;
+            }
+        }
+    }
+    //  ========= footer section end       
+    }
+//  =================================== md responsive end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  =================================== responsive end

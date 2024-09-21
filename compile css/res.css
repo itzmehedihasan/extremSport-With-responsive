@@ -1,0 +1,2131 @@
+ul, ol {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  nav .navbar-brand img {
+    width: 50%;
+  }
+  nav .navbar-toggler {
+    background-color: #ffffff;
+  }
+  nav .navbar-collapse {
+    background: #0b3543;
+    padding: 20px;
+    text-align: center;
+  }
+  nav .navbtn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+  nav ul li .nav-link {
+    font-size: 16px;
+  }
+  .hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  .hero h1 {
+    font-size: 24px;
+    width: auto;
+    line-height: initial;
+  }
+  .hero .hero-btn-1,
+  .hero .hero-btn-2 {
+    font-size: 16px;
+    padding: 10px 13px;
+    margin: 0 5px;
+  }
+  .hero .buttons {
+    margin-top: 30px;
+  }
+  .adventures {
+    margin-top: 36px;
+  }
+  .adventures h3 {
+    font-size: 20px;
+  }
+  .adventures h2 {
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
+  .adventures p {
+    font-size: 16px;
+  }
+  .adventures ul {
+    font-size: 16px;
+  }
+  .adventures li:first-child {
+    margin-top: 25px;
+  }
+  .adventures li {
+    margin-top: 15px;
+  }
+  .adventures li:last-child {
+    margin-bottom: 25px;
+  }
+  .adventures .adventure-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+    display: inline-block;
+  }
+  .adventures img,
+  .adventures svg {
+    display: none;
+  }
+  .Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Adventures-under .item h4 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .Adventures-under .item p {
+    font-size: 16px;
+    line-height: 12.4px;
+  }
+  .Adventures-under .item {
+    padding-top: 20px;
+    padding-bottom: 22px;
+    margin-bottom: 15px;
+  }
+  .Adventures-under img,
+  .Adventures-under svg {
+    height: 119px;
+    width: 303px;
+  }
+  .Activities h3 {
+    font-size: 20px;
+    margin-top: 51px;
+  }
+  .Activities h2 {
+    font-size: 26px;
+    line-height: 35.2px;
+    margin-bottom: 0;
+  }
+  .Activities h2::after {
+    bottom: -20px;
+  }
+  .Activities p {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Activities-under .row-gap-5 {
+    row-gap: 1rem !important;
+  }
+  .Activities-under .row-gap-5 .card .box h3 {
+    font-size: 20px;
+    line-height: 15px;
+    padding-top: 19px;
+  }
+  .Activities-under .row-gap-5 .card .box p {
+    font-size: 16px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  .Activities-under #img {
+    display: none;
+  }
+  .ExtremeSports h2 {
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+  }
+  .ExtremeSports .div {
+    padding-top: 53px;
+  }
+  .ExtremeSports .div h3 {
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 35.2px;
+    margin-top: 16px;
+  }
+  .ExtremeSports .div h4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 25px;
+  }
+  .ExtremeSports .div .box {
+    margin-top: 35px;
+    padding-bottom: 55px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn1 {
+    font-size: 16px;
+    padding: 10px 6px;
+    margin-right: 2px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn2 {
+    font-size: 16px;
+    padding: 10px 5px;
+    margin-left: 3px;
+  }
+  .ExtremeSports .div .overlay .details {
+    margin-left: 40px;
+  }
+  .ExtremeSports .div .overlay h5 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  .ExtremeSports .div .overlay h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .ExtremeSports .div .overlay p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .ExtremeSports .div .overlay p::after {
+    width: 200px;
+    top: -18px;
+  }
+  .ExtremeSports .div .card {
+    margin-bottom: 15px;
+  }
+  .why {
+    margin-top: 60px;
+    padding-bottom: 27px;
+  }
+  .why .title h2 {
+    font-size: 25px;
+    line-height: 25.88px;
+  }
+  .why .title h3 {
+    font-size: 35px;
+    line-height: 50.2px;
+    margin-top: 5px;
+    margin-bottom: 49px;
+  }
+  .why .title h3::after {
+    bottom: -20px;
+  }
+  .why .details .icon {
+    width: 100px;
+    height: 100px;
+  }
+  .why .details .icon i {
+    font-size: 45px;
+  }
+  .why .details h3 {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .why .details p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news .title h2 {
+    font-size: 20px;
+  }
+  .news .title h3 {
+    font-size: 28px;
+    width: 208px;
+    margin-top: 5px;
+  }
+  .news .title h3::after {
+    bottom: -12;
+  }
+  .news .text p {
+    font-size: 16px;
+    width: 279px;
+    text-align: justify;
+  }
+  .news .div {
+    margin-top: 0;
+  }
+  .news .div .card {
+    margin-bottom: 15px;
+  }
+  .news .div .card .card-detail h2 {
+    font-size: 14px;
+    line-height: 24.4px;
+    width: 221px;
+    margin-top: 12px;
+  }
+  .news .div .card .card-detail p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    width: 266px;
+  }
+  .news .div .card .card-detail a {
+    font-size: 16px;
+    padding: 15px 70px 15px;
+  }
+  .fiveIcon {
+    display: none;
+  }
+  .footer .custom-width-left {
+    display: none;
+  }
+  .footer .custom-width-right {
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 100%;
+  }
+  .footer .custom-width-right img {
+    margin-bottom: 25px;
+  }
+  .footer .custom-width-right a {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  .footer .custom-width-right .row #row-one-p {
+    width: 270px;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .footer .custom-width-right .row h2 {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    position: relative;
+  }
+  .footer .custom-width-right .row h2::after {
+    width: 43px;
+    bottom: -15px;
+  }
+  .footer .custom-width-right .row p:first-child {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .footer .custom-width-right .row p:last-child {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row #asdf {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .footer .custom-width-right .line {
+    width: 91%;
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+  .footer .custom-width-right #hjkl {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 268px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+  nav .navbar-brand img {
+    width: 70%;
+  }
+  nav .navbar-toggler {
+    background-color: #ffffff;
+  }
+  nav .navbar-collapse {
+    background: #0b3543;
+    padding: 20px;
+    text-align: center;
+  }
+  nav .navbtn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+  nav ul li .nav-link {
+    font-size: 16px;
+  }
+  .hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  .hero h1 {
+    font-size: 37px;
+    width: auto;
+    line-height: 50px;
+  }
+  .hero .buttons {
+    margin-top: 35px;
+  }
+  .hero .buttons .hero-btn-1,
+  .hero .buttons .hero-btn-2 {
+    font-size: 16px;
+    padding: 13px 26px;
+    margin: 0 7px;
+  }
+  .adventures {
+    margin-top: 36px;
+  }
+  .adventures h3 {
+    font-size: 30px;
+  }
+  .adventures h2 {
+    font-size: 37px;
+    line-height: 43px;
+    margin-bottom: 50px;
+  }
+  .adventures p {
+    font-size: 16px;
+  }
+  .adventures ul {
+    font-size: 16px;
+  }
+  .adventures li:first-child {
+    margin-top: 25px;
+  }
+  .adventures li {
+    margin-top: 15px;
+  }
+  .adventures li:last-child {
+    margin-bottom: 25px;
+  }
+  .adventures .adventure-btn {
+    font-size: 16px;
+    padding: 13px 26px;
+    display: inline-block;
+  }
+  .adventures img,
+  .adventures svg {
+    display: none;
+  }
+  .Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Adventures-under .item h4 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .Adventures-under .item p {
+    font-size: 16px;
+    line-height: 12.4px;
+  }
+  .Adventures-under .item {
+    padding-top: 20px;
+    padding-bottom: 22px;
+    margin-bottom: 15px;
+  }
+  .Adventures-under img,
+  .Adventures-under svg {
+    width: 250px;
+    height: 125px;
+  }
+  .Activities h3 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .Activities h2 {
+    font-size: 37px;
+    line-height: 43.2px;
+    margin-bottom: 5px;
+    width: 265px;
+  }
+  .Activities h2::after {
+    bottom: -20px;
+  }
+  .Activities p {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Activities-under .row-gap-5 {
+    row-gap: 1.5rem !important;
+  }
+  .Activities-under .row-gap-5 .card .box h3 {
+    font-size: 25px;
+    line-height: 15px;
+    padding-top: 19px;
+  }
+  .Activities-under .row-gap-5 .card .box p {
+    font-size: 16px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  .Activities-under #img {
+    display: none;
+  }
+  .ExtremeSports h2 {
+    font-size: 80px;
+    line-height: 70px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+  }
+  .ExtremeSports .div {
+    padding-top: 53px;
+  }
+  .ExtremeSports .div h3 {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 37.2px;
+    margin-top: 22px;
+  }
+  .ExtremeSports .div h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 25px;
+  }
+  .ExtremeSports .div .box {
+    margin-top: 35px;
+    padding-bottom: 55px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn1 {
+    font-size: 18px;
+    padding: 13px 20px;
+    margin-right: 13px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn2 {
+    font-size: 18px;
+    padding: 13px 20px;
+  }
+  .ExtremeSports .div .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 119%;
+    height: 100%;
+    text-align: left !important;
+    position: absolute;
+    left: -27px;
+    bottom: -18%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+    transition: 0.4s ease-in-out;
+  }
+  .ExtremeSports .div .overlay .details {
+    margin-left: 40px;
+  }
+  .ExtremeSports .div .overlay h5 {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .ExtremeSports .div .overlay h6 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    width: 126px;
+  }
+  .ExtremeSports .div .overlay p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  .ExtremeSports .div .overlay p::after {
+    width: 200px;
+    top: -18px;
+  }
+  .ExtremeSports .div .card {
+    margin-bottom: 35px;
+  }
+  .why {
+    margin-top: 60px;
+    padding-bottom: 0;
+  }
+  .why .title h2 {
+    font-size: 30px;
+    line-height: 30.88px;
+  }
+  .why .title h3 {
+    font-size: 37px;
+    line-height: 50.2px;
+    margin-top: 5px;
+    margin-bottom: 49px;
+  }
+  .why .title h3::after {
+    bottom: -20px;
+  }
+  .why .details {
+    margin-bottom: 20px;
+  }
+  .why .details .icon {
+    width: 100px;
+    height: 100px;
+  }
+  .why .details .icon i {
+    font-size: 45px;
+  }
+  .why .details h3 {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .why .details p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news .title h2 {
+    font-size: 30px;
+  }
+  .news .title h3 {
+    font-size: 37px;
+    width: 265px;
+    margin-top: 5px;
+  }
+  .news .title h3::after {
+    bottom: -12;
+    background: rgb(160, 160, 160);
+  }
+  .news .text {
+    height: 130px;
+  }
+  .news .text p {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 503px;
+    text-align: justify;
+  }
+  .news .div {
+    margin-top: 0;
+  }
+  .news .div .card {
+    margin-bottom: 20px;
+  }
+  .news .div .card .card-detail h2 {
+    font-size: 16px;
+    line-height: 20.4px;
+    width: 123px;
+    margin-top: 15px;
+  }
+  .news .div .card .card-detail p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 140px;
+  }
+  .news .div .card .card-detail a {
+    width: 135px;
+    font-size: 14px;
+    padding: 12px 20px 12px;
+  }
+  .fiveIcon {
+    padding: 30px;
+  }
+  .fiveIcon .row .div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .footer .custom-width-left {
+    display: none;
+  }
+  .footer .custom-width-right {
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 100%;
+  }
+  .footer .custom-width-right img {
+    margin-bottom: 35px;
+    width: 35%;
+  }
+  .footer .custom-width-right a {
+    font-size: 16px;
+    padding: 13px 22px;
+  }
+  .footer .custom-width-right .row #row-one-p {
+    width: 426px;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .footer .custom-width-right .row h2 {
+    font-size: 26px;
+    line-height: 30px;
+    color: white;
+    position: relative;
+  }
+  .footer .custom-width-right .row h2::after {
+    width: 60px;
+    bottom: -15px;
+  }
+  .footer .custom-width-right .row p:first-child {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row #asdf {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .footer .custom-width-right .line {
+    width: 91%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .footer .custom-width-right #hjkl {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 427px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+  nav .navbar-brand img {
+    width: 70%;
+  }
+  nav .navbar-toggler {
+    background-color: #ffffff;
+  }
+  nav .navbar-collapse {
+    background: #0b3543;
+    padding: 20px;
+    text-align: center;
+  }
+  nav .navbtn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+  nav ul li .nav-link {
+    font-size: 16px;
+  }
+  .hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  .hero h1 {
+    font-size: 42px;
+    width: auto;
+    line-height: 55px;
+  }
+  .hero .buttons {
+    margin-top: 35px;
+  }
+  .hero .buttons .hero-btn-1,
+  .hero .buttons .hero-btn-2 {
+    font-size: 16px;
+    padding: 13px 26px;
+    margin: 0 7px;
+  }
+  .adventures {
+    margin-top: 36px;
+  }
+  .adventures .title {
+    margin-bottom: 15px;
+  }
+  .adventures h3 {
+    font-size: 30px;
+  }
+  .adventures h2 {
+    font-size: 35px;
+    line-height: 40px;
+    width: 388;
+  }
+  .adventures p {
+    font-size: 16px;
+  }
+  .adventures ul {
+    font-size: 16px;
+  }
+  .adventures li:first-child {
+    margin-top: 40px;
+  }
+  .adventures li {
+    margin-top: 20px;
+  }
+  .adventures li:last-child {
+    margin-bottom: 40px;
+  }
+  .adventures .adventure-btn {
+    font-size: 18px;
+    padding: 15px 35px;
+  }
+  .adventures img,
+  .adventures svg {
+    display: none;
+  }
+  .Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Adventures-under .item h4 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .Adventures-under .item p {
+    font-size: 16px;
+    line-height: 12.4px;
+  }
+  .Adventures-under .item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .Adventures-under img, .Adventures-under svg {
+    width: 325px;
+    height: 155px;
+  }
+  .Activities h3 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .Activities h2 {
+    font-size: 37px;
+    line-height: 45.2px;
+    margin-bottom: 5px;
+    width: 290px;
+  }
+  .Activities h2::after {
+    bottom: -20px;
+  }
+  .Activities p {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Activities-under .row-gap-5 {
+    row-gap: 1.5rem !important;
+  }
+  .Activities-under .row-gap-5 .card .box h3 {
+    font-size: 25px;
+    line-height: 15px;
+    padding-top: 19px;
+  }
+  .Activities-under .row-gap-5 .card .box p {
+    font-size: 17px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  .Activities-under #img {
+    display: none;
+  }
+  .ExtremeSports h2 {
+    font-size: 90px;
+    line-height: 70px;
+    padding-top: 70px;
+    margin-bottom: 0px;
+  }
+  .ExtremeSports .div {
+    padding-top: 53px;
+  }
+  .ExtremeSports .div h3 {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 37.2px;
+    margin-top: 22px;
+  }
+  .ExtremeSports .div h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 25px;
+  }
+  .ExtremeSports .div .box {
+    margin-top: 35px;
+    padding-bottom: 55px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn1 {
+    font-size: 18px;
+    padding: 13px 20px;
+    margin-right: 13px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn2 {
+    font-size: 18px;
+    padding: 13px 20px;
+  }
+  .ExtremeSports .div .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 119%;
+    height: 100%;
+    text-align: left !important;
+    position: absolute;
+    left: -27px;
+    bottom: -18%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+    transition: 0.4s ease-in-out;
+  }
+  .ExtremeSports .div .overlay .details {
+    margin-left: 60px;
+  }
+  .ExtremeSports .div .overlay h5 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    width: 147;
+  }
+  .ExtremeSports .div .overlay h6 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    width: 126px;
+  }
+  .ExtremeSports .div .overlay p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  .ExtremeSports .div .overlay p::after {
+    width: 150px;
+    top: -18px;
+  }
+  .ExtremeSports .div .card {
+    margin-bottom: 50px;
+  }
+  .why {
+    margin-top: 60px;
+    padding-bottom: 0;
+  }
+  .why .title h2 {
+    font-size: 30px;
+    line-height: 30.88px;
+  }
+  .why .title h3 {
+    font-size: 40px;
+    line-height: 50.2px;
+    margin-top: 15px;
+    margin-bottom: 49px;
+  }
+  .why .title h3::after {
+    bottom: -20px;
+  }
+  .why .details {
+    margin-bottom: 20px;
+  }
+  .why .details .icon {
+    width: 100px;
+    height: 100px;
+  }
+  .why .details .icon i {
+    font-size: 45px;
+  }
+  .why .details h3 {
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .why .details p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news .title h2 {
+    font-size: 30px;
+  }
+  .news .title h3 {
+    font-size: 37px;
+    width: 265px;
+    margin-top: 5px;
+  }
+  .news .title h3::after {
+    bottom: -12;
+    background: rgb(160, 160, 160);
+  }
+  .news .text {
+    height: 130px;
+  }
+  .news .text p {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 800px;
+    text-align: justify;
+  }
+  .news .div {
+    margin-top: 0;
+  }
+  .news .div .card {
+    margin-bottom: 20px;
+  }
+  .news .div .card .card-detail h2 {
+    font-size: 16px;
+    line-height: 25.4px;
+    width: 202px;
+    margin-top: 15px;
+  }
+  .news .div .card .card-detail p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 200px;
+  }
+  .news .div .card .card-detail a {
+    width: 198px;
+    font-size: 16px;
+    padding: 12px 20px 12px;
+  }
+  .fiveIcon {
+    padding: 30px;
+  }
+  .fiveIcon .row .div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .footer .custom-width-left {
+    display: none;
+  }
+  .footer .custom-width-right {
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 100%;
+  }
+  .footer .custom-width-right img {
+    margin-bottom: 30px;
+  }
+  .footer .custom-width-right a {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  .footer .custom-width-right .row #row-one-p {
+    width: 672px;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .footer .custom-width-right .row h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    position: relative;
+  }
+  .footer .custom-width-right .row h2::after {
+    width: 60px;
+    bottom: -15px;
+  }
+  .footer .custom-width-right .row p:first-child {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row #asdf {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .footer .custom-width-right .line {
+    width: 91%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .footer .custom-width-right #hjkl {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 427px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  nav .navbar-brand img {
+    width: 100%;
+  }
+  nav .navbar-nav {
+    column-gap: 20px;
+  }
+  nav .navbtn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+  nav ul li .nav-link {
+    font-size: 16px;
+  }
+  .hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    width: 481;
+    line-height: 60px;
+  }
+  .hero .buttons {
+    margin-top: 40px;
+  }
+  .hero .buttons .hero-btn-1,
+  .hero .buttons .hero-btn-2 {
+    font-size: 16px;
+    padding: 13px 26px;
+    margin: 0 15px;
+  }
+  .adventures {
+    margin-top: 36px;
+  }
+  .adventures .title {
+    margin-bottom: 15px;
+  }
+  .adventures h3 {
+    font-size: 35px;
+  }
+  .adventures h2 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .adventures p {
+    font-size: 16px;
+    width: 705px;
+  }
+  .adventures ul {
+    font-size: 16px;
+  }
+  .adventures li:first-child {
+    margin-top: 40px;
+  }
+  .adventures li {
+    margin-top: 20px;
+  }
+  .adventures li:last-child {
+    margin-bottom: 40px;
+  }
+  .adventures .adventure-btn {
+    font-size: 18px;
+    padding: 15px 35px;
+  }
+  .adventures img,
+  .adventures svg {
+    display: none;
+  }
+  .Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Adventures-under .item h4 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .Adventures-under .item p {
+    font-size: 16px;
+    line-height: 12.4px;
+  }
+  .Adventures-under .item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .Adventures-under img, .Adventures-under svg {
+    width: 325px;
+    height: 155px;
+  }
+  .Activities h3 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .Activities h2 {
+    font-size: 37px;
+    line-height: 45.2px;
+    margin-bottom: 35px;
+    width: 290px;
+  }
+  .Activities h2::after {
+    bottom: -20px;
+  }
+  .Activities p {
+    font-size: 16px;
+    margin-top: 102px;
+    text-align: justify;
+  }
+  .Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Activities-under .row-gap-5 {
+    row-gap: 1.5rem !important;
+  }
+  .Activities-under .row-gap-5 .card .box h3 {
+    font-size: 25px;
+    line-height: 15px;
+    padding-top: 19px;
+  }
+  .Activities-under .row-gap-5 .card .box p {
+    font-size: 17px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  .Activities-under #img {
+    display: none;
+  }
+  .ExtremeSports h2 {
+    font-size: 90px;
+    line-height: 70px;
+    padding-top: 70px;
+    margin-bottom: 0px;
+  }
+  .ExtremeSports .div {
+    padding-top: 53px;
+  }
+  .ExtremeSports .div h3 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40.2px;
+    margin-top: 22px;
+  }
+  .ExtremeSports .div h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 25px;
+  }
+  .ExtremeSports .div .box {
+    margin-top: 35px;
+    padding-bottom: 55px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn1 {
+    font-size: 18px;
+    padding: 13px 20px;
+    margin-right: 13px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn2 {
+    font-size: 18px;
+    padding: 13px 20px;
+  }
+  .ExtremeSports .div .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 119%;
+    height: 100%;
+    text-align: left !important;
+    position: absolute;
+    left: -27px;
+    bottom: -18%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+    transition: 0.4s ease-in-out;
+  }
+  .ExtremeSports .div .overlay .details {
+    margin-left: 60px;
+  }
+  .ExtremeSports .div .overlay h5 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    width: 147;
+  }
+  .ExtremeSports .div .overlay h6 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    width: 126px;
+  }
+  .ExtremeSports .div .overlay p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  .ExtremeSports .div .overlay p::after {
+    width: 150px;
+    top: -18px;
+  }
+  .ExtremeSports .div .card {
+    margin-bottom: 50px;
+  }
+  .why {
+    margin-top: 60px;
+    padding-bottom: 0;
+  }
+  .why .title h2 {
+    font-size: 35px;
+    line-height: 30.88px;
+  }
+  .why .title h3 {
+    font-size: 49px;
+    line-height: 56.2px;
+    margin-top: 15px;
+    margin-bottom: 49px;
+  }
+  .why .title h3::after {
+    bottom: -20px;
+  }
+  .why .details {
+    margin-bottom: 20px;
+  }
+  .why .details .icon {
+    width: 100px;
+    height: 100px;
+  }
+  .why .details .icon i {
+    font-size: 45px;
+  }
+  .why .details h3 {
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .why .details p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    width: 224px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news .title h2 {
+    font-size: 35px;
+  }
+  .news .title h3 {
+    font-size: 37px;
+    width: 265px;
+    margin-top: 5px;
+  }
+  .news .title h3::after {
+    bottom: -12;
+    background: rgb(160, 160, 160);
+  }
+  .news .text {
+    height: 130px;
+  }
+  .news .text p {
+    font-size: 16px;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    width: 800px;
+    text-align: justify;
+  }
+  .news .div {
+    margin-top: 60px;
+  }
+  .news .div .card {
+    margin-bottom: 20px;
+  }
+  .news .div .card .card-detail h2 {
+    font-size: 16px;
+    line-height: 25.4px;
+    width: 258px;
+    margin-top: 15px;
+  }
+  .news .div .card .card-detail p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 266px;
+  }
+  .news .div .card .card-detail a {
+    width: 270px;
+    font-size: 16px;
+    padding: 12px 20px 12px;
+  }
+  .fiveIcon {
+    padding: 30px;
+  }
+  .fiveIcon .row .div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .footer .custom-width-left .div1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .footer .custom-width-right {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+  .footer .custom-width-right img {
+    margin-bottom: 30px;
+    width: 35%;
+  }
+  .footer .custom-width-right a {
+    font-size: 14px;
+    padding: 12px 19px;
+  }
+  .footer .custom-width-right .row #row-one-p {
+    width: 395px;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 0;
+  }
+  .footer .custom-width-right .row h2 {
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+    position: relative;
+  }
+  .footer .custom-width-right .row h2::after {
+    width: 60px;
+    bottom: -15px;
+  }
+  .footer .custom-width-right .row p:first-child {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row #asdf {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .footer .custom-width-right .line {
+    width: 94%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .footer .custom-width-right #hjkl {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 427px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  nav .navbar-brand img {
+    width: 100%;
+  }
+  nav .navbar-toggler {
+    background-color: #ffffff;
+  }
+  nav .navbar-collapse {
+    padding: 20px;
+    text-align: center;
+  }
+  nav .navbtn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 26px;
+  }
+  nav ul li .nav-link {
+    font-size: 16px;
+  }
+  .hero {
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    width: 900;
+    line-height: 70px;
+  }
+  .hero .buttons {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .hero .buttons .hero-btn-1,
+  .hero .buttons .hero-btn-2 {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 0 10px;
+  }
+  .adventures {
+    margin-top: 36px;
+  }
+  .adventures .title {
+    margin-bottom: 15px;
+  }
+  .adventures h3 {
+    font-size: 50px;
+  }
+  .adventures h2 {
+    font-size: 49px;
+    line-height: 50px;
+  }
+  .adventures p {
+    font-size: 18px;
+    width: 800px;
+  }
+  .adventures ul {
+    font-size: 18px;
+  }
+  .adventures li:first-child {
+    margin-top: 40px;
+  }
+  .adventures li {
+    margin-top: 20px;
+  }
+  .adventures li:last-child {
+    margin-bottom: 40px;
+  }
+  .adventures .adventure-btn {
+    font-size: 20px;
+    padding: 15px 35px;
+  }
+  .adventures img,
+  .adventures svg {
+    display: none;
+  }
+  .Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Adventures-under .item h4 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .Adventures-under .item p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .Adventures-under .item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .Adventures-under img, .Adventures-under svg {
+    width: 251px;
+    height: 175px;
+  }
+  .Activities h3 {
+    font-size: 50px;
+  }
+  .Activities h2 {
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 10px;
+    width: 375;
+  }
+  .Activities h2::after {
+    bottom: -20px;
+  }
+  .Activities p {
+    font-size: 16px;
+    margin-top: 180px;
+  }
+  .Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Activities-under .row-gap-5 {
+    row-gap: 1.5rem !important;
+  }
+  .Activities-under .row-gap-5 .card .box h3 {
+    font-size: 30px;
+    line-height: 20px;
+    padding-top: 22px;
+  }
+  .Activities-under .row-gap-5 .card .box p {
+    font-size: 18px;
+    margin-top: 17px;
+    padding-bottom: 15px;
+  }
+  .Activities-under #img {
+    display: none;
+  }
+  .ExtremeSports h2 {
+    font-size: 110px;
+    line-height: 90px;
+    padding-top: 80px;
+    margin-bottom: 15px;
+  }
+  .ExtremeSports .div {
+    padding-top: 53px;
+  }
+  .ExtremeSports .div h3 {
+    font-size: 39px;
+    font-weight: 900;
+    line-height: 50.2px;
+    margin-top: 25px;
+  }
+  .ExtremeSports .div h4 {
+    font-size: 28px;
+    line-height: 30px;
+    margin-top: 25px;
+  }
+  .ExtremeSports .div .box {
+    margin-top: 55px;
+    padding-bottom: 55px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn1 {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-right: 20px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn2 {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+  .ExtremeSports .div .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 119%;
+    height: 100%;
+    text-align: left !important;
+    position: absolute;
+    left: -27px;
+    bottom: -16%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+    transition: 0.4s ease-in-out;
+  }
+  .ExtremeSports .div .overlay .details {
+    margin-left: 60px;
+  }
+  .ExtremeSports .div .overlay h5 {
+    font-size: 37px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    width: 208px;
+  }
+  .ExtremeSports .div .overlay h6 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    width: 126px;
+  }
+  .ExtremeSports .div .overlay p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    width: 150px;
+  }
+  .ExtremeSports .div .overlay p::after {
+    width: 230px;
+    top: -20px;
+  }
+  .ExtremeSports .div .card {
+    margin-bottom: 50px;
+  }
+  .why {
+    margin-top: 60px;
+    padding-bottom: 0;
+  }
+  .why .title h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .why .title h3 {
+    font-size: 70px;
+    line-height: 80.2px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .why .title h3::after {
+    bottom: -20px;
+  }
+  .why .details {
+    margin-bottom: 20px;
+  }
+  .why .details .icon {
+    width: 100px;
+    height: 100px;
+  }
+  .why .details .icon i {
+    font-size: 45px;
+  }
+  .why .details h3 {
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .why .details p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news .title h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .news .title h3 {
+    font-size: 56px;
+    width: 509px;
+    line-height: 56px;
+    margin-bottom: 60px;
+  }
+  .news .title h3::after {
+    bottom: -20;
+    background: rgb(160, 160, 160);
+  }
+  .news .text {
+    height: 130px;
+  }
+  .news .text p {
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    width: 800px;
+    text-align: justify;
+  }
+  .news .div {
+    margin-top: 0;
+  }
+  .news .div .card {
+    margin-bottom: 20px;
+  }
+  .news .div .card .card-detail h2 {
+    font-size: 22px;
+    line-height: 25.4px;
+    width: 320px;
+    margin-top: 20px;
+  }
+  .news .div .card .card-detail p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 312px;
+  }
+  .news .div .card .card-detail a {
+    width: 330px;
+    font-size: 18px;
+    padding: 15px 30px 15px;
+  }
+  .fiveIcon {
+    padding: 30px;
+  }
+  .fiveIcon .row .div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .footer .custom-width-left .div1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .footer .custom-width-right {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+  .footer .custom-width-right .line {
+    width: 91%;
+    margin-top: 20px;
+    margin-bottom: 20;
+  }
+  .footer .custom-width-right img {
+    margin-bottom: 30px;
+  }
+  .footer .custom-width-right a {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  .footer .custom-width-right .row #row-one-p {
+    width: 672px;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .footer .custom-width-right .row h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    position: relative;
+  }
+  .footer .custom-width-right .row h2::after {
+    width: 60px;
+    bottom: -15px;
+  }
+  .footer .custom-width-right .row p:first-child {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row #asdf {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .footer .custom-width-right .line {
+    width: 91%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .footer .custom-width-right #hjkl {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 427px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+  nav .navbar-brand img {
+    width: 100%;
+  }
+  nav .navbar-toggler {
+    background-color: #ffffff;
+  }
+  nav .navbar-collapse {
+    padding: 20px;
+    text-align: center;
+  }
+  nav .navbtn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  nav ul li .nav-link {
+    font-size: 18px;
+  }
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 90px;
+  }
+  .hero h1 {
+    width: 700px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .hero .buttons {
+    margin-top: 60px;
+  }
+  .hero .buttons .hero-btn-1,
+  .hero .buttons .hero-btn-2 {
+    font-size: 16px;
+    padding: 15px 30px;
+    margin: 0 20px;
+  }
+  .adventures {
+    margin-top: 36px;
+  }
+  .adventures .title {
+    margin-bottom: 15px;
+  }
+  .adventures h3 {
+    font-size: 35px;
+  }
+  .adventures h2 {
+    width: 500px;
+    font-size: 45px;
+    line-height: 46px;
+  }
+  .adventures p {
+    font-size: 16px;
+    width: 701px;
+  }
+  .adventures ul {
+    font-size: 16px;
+  }
+  .adventures li:first-child {
+    margin-top: 40px;
+  }
+  .adventures li {
+    margin-top: 20px;
+  }
+  .adventures li:last-child {
+    margin-bottom: 40px;
+  }
+  .adventures .adventure-btn {
+    font-size: 18px;
+    padding: 15px 35px;
+  }
+  .adventures img,
+  .adventures svg {
+    display: none;
+  }
+  .Adventures-under {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Adventures-under .item h4 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .Adventures-under .item p {
+    font-size: 20px;
+    line-height: 22.4px;
+  }
+  .Adventures-under .item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .Adventures-under img, .Adventures-under svg {
+    width: 300px;
+    height: 160px;
+  }
+  .Activities h3 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+  .Activities h2 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    width: 345px;
+  }
+  .Activities h2::after {
+    bottom: -20px;
+  }
+  .Activities p {
+    font-size: 16px;
+    margin-top: 109px;
+  }
+  .Activities-under {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Activities-under .row-gap-5 {
+    row-gap: 1.5rem !important;
+  }
+  .Activities-under .row-gap-5 .card .box h3 {
+    font-size: 30px;
+    line-height: 15px;
+    padding-top: 19px;
+  }
+  .Activities-under .row-gap-5 .card .box p {
+    font-size: 18px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  .Activities-under #img {
+    display: none;
+  }
+  .ExtremeSports h2 {
+    font-size: 110px;
+    line-height: 70px;
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  .ExtremeSports .div {
+    padding-top: 53px;
+  }
+  .ExtremeSports .div h3 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37.2px;
+    margin-top: 22px;
+  }
+  .ExtremeSports .div h4 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 35px;
+  }
+  .ExtremeSports .div .box {
+    margin-top: 50px;
+    padding-bottom: 55px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn1 {
+    font-size: 18px;
+    padding: 13px 20px;
+    margin-right: 13px;
+  }
+  .ExtremeSports .div .box .ExtremeSports-under-btn2 {
+    font-size: 18px;
+    padding: 13px 20px;
+  }
+  .ExtremeSports .div .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 119%;
+    height: 100%;
+    text-align: left !important;
+    position: absolute;
+    left: -27px;
+    bottom: -13%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.45) 40.1%, #000000 100%);
+    transition: 0.4s ease-in-out;
+  }
+  .ExtremeSports .div .overlay .details {
+    margin-left: 80px;
+  }
+  .ExtremeSports .div .overlay h5 {
+    font-size: 35px;
+    line-height: 44px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  .ExtremeSports .div .overlay h6 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    width: 126px;
+  }
+  .ExtremeSports .div .overlay p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    width: 150px;
+  }
+  .ExtremeSports .div .overlay p::after {
+    width: 230px;
+    top: -18px;
+  }
+  .ExtremeSports .div .card {
+    margin-bottom: 50px;
+  }
+  .why {
+    margin-top: 60px;
+    padding-bottom: 0;
+  }
+  .why .title h2 {
+    font-size: 35px;
+    line-height: 40.88px;
+  }
+  .why .title h3 {
+    font-size: 56px;
+    line-height: 60.2px;
+    margin-top: 20px;
+    margin-bottom: 49px;
+  }
+  .why .title h3::after {
+    bottom: -20px;
+  }
+  .why .details {
+    margin-bottom: 20px;
+  }
+  .why .details .icon {
+    width: 150px;
+    height: 150px;
+  }
+  .why .details .icon i {
+    font-size: 60px;
+  }
+  .why .details h3 {
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .why .details p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    width: 313px;
+  }
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .news .title h2 {
+    font-size: 35px;
+  }
+  .news .title h3 {
+    font-size: 45px;
+    width: 341px;
+    margin-top: 5px;
+    margin-bottom: 50;
+  }
+  .news .title h3::after {
+    bottom: -12;
+    background: rgb(160, 160, 160);
+  }
+  .news .text {
+    height: 130px;
+  }
+  .news .text p {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+    text-align: justify;
+  }
+  .news .div {
+    margin-top: 0;
+  }
+  .news .div .card {
+    margin-bottom: 20px;
+  }
+  .news .div .card .card-detail h2 {
+    font-size: 18px;
+    line-height: 25.4px;
+    width: 274px;
+    margin-top: 15px;
+  }
+  .news .div .card .card-detail p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 335px;
+  }
+  .news .div .card .card-detail a {
+    width: 400px;
+    font-size: 16px;
+    padding: 15px 30px 15px;
+  }
+  .fiveIcon {
+    padding: 30px;
+  }
+  .fiveIcon .row .div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .footer .custom-width-left .div1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .footer .custom-width-right {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+  .footer .custom-width-right img {
+    margin-bottom: 30px;
+  }
+  .footer .custom-width-right a {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  .footer .custom-width-right .row #row-one-p {
+    width: 672px;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .footer .custom-width-right .row h2 {
+    font-size: 35px;
+    line-height: 30px;
+    color: white;
+    position: relative;
+  }
+  .footer .custom-width-right .row h2::after {
+    width: 60px;
+    bottom: -15px;
+  }
+  .footer .custom-width-right .row p:first-child {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .footer .custom-width-right .row #asdf {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .footer .custom-width-right .line {
+    width: 91%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .footer .custom-width-right #hjkl {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 427px;
+  }
+}
+
+/*# sourceMappingURL=res.css.map */
